@@ -1,0 +1,8 @@
+{
+  "package_name": "dyros_interface",
+  "non_idl_tuples": [
+    "/home/dyros/ros2_ws/src/dyros_interface:msg/Num.msg",
+    "/home/dyros/ros2_ws/src/dyros_interface:msg/Sphere.msg",
+    "/home/dyros/ros2_ws/src/dyros_interface:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (-) JobUnselected: {'identifier': 'dyros_cmake'}
+[0.003904] (-) JobUnselected: {'identifier': 'dyros_interface'}
+[0.003985] (dyros_python) JobQueued: {'identifier': 'dyros_python', 'dependencies': OrderedDict([('dyros_interface', '/home/dyros/ros2_ws/install/dyros_interface')])}
+[0.004031] (dyros_python) JobStarted: {'identifier': 'dyros_python'}
+[0.098265] (-) TimerEvent: {}
+[0.198716] (-) TimerEvent: {}
+[0.299104] (-) TimerEvent: {}
+[0.399467] (-) TimerEvent: {}
+[0.499876] (-) TimerEvent: {}
+[0.600455] (-) TimerEvent: {}
+[0.700900] (-) TimerEvent: {}
+[0.801621] (-) TimerEvent: {}
+[0.901997] (-) TimerEvent: {}
+[1.002303] (-) TimerEvent: {}
+[1.103123] (-) TimerEvent: {}
+[1.203985] (-) TimerEvent: {}
+[1.304997] (-) TimerEvent: {}
+[1.405802] (-) TimerEvent: {}
+[1.425877] (dyros_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/dyros_python', 'build', '--build-base', '/home/dyros/ros2_ws/build/dyros_python/build', 'install', '--record', '/home/dyros/ros2_ws/build/dyros_python/install.log', '--single-version-externally-managed'], 'cwd': '/home/dyros/ros2_ws/src/dyros_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dyros', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dyros/ros2_ws/install/dyros_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dyros', 'OLDPWD': '/home/dyros/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1866', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dyros/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dyros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dyros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dyros/ros2_ws/build/dyros_python', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_cmake'}, 'shell': False}
+[1.506048] (-) TimerEvent: {}
+[1.606620] (-) TimerEvent: {}
+[1.706960] (-) TimerEvent: {}
+[1.807455] (-) TimerEvent: {}
+[1.902865] (dyros_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.904373] (dyros_python) StdoutLine: {'line': b'writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO\n'}
+[1.909459] (-) TimerEvent: {}
+[1.918764] (dyros_python) StdoutLine: {'line': b'writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt\n'}
+[1.919646] (dyros_python) StdoutLine: {'line': b'writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt\n'}
+[1.920599] (dyros_python) StdoutLine: {'line': b'writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt\n'}
+[1.920773] (dyros_python) StdoutLine: {'line': b'writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt\n'}
+[1.926202] (dyros_python) StdoutLine: {'line': b"reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'\n"}
+[1.928674] (dyros_python) StdoutLine: {'line': b"writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'\n"}
+[1.929409] (dyros_python) StdoutLine: {'line': b'running build\n'}
+[1.929735] (dyros_python) StdoutLine: {'line': b'running build_py\n'}
+[1.932445] (dyros_python) StdoutLine: {'line': b'copying dyros_python/dyros_py_server.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python\n'}
+[1.933016] (dyros_python) StdoutLine: {'line': b'copying dyros_python/dyros_py_client.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python\n'}
+[1.934529] (dyros_python) StdoutLine: {'line': b'running install\n'}
+[1.935549] (dyros_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.937859] (dyros_python) StdoutLine: {'line': b'copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_server.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python\n'}
+[1.938485] (dyros_python) StdoutLine: {'line': b'copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_client.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python\n'}
+[1.942416] (dyros_python) StdoutLine: {'line': b'byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_server.py to dyros_py_server.cpython-310.pyc\n'}
+[1.947189] (dyros_python) StdoutLine: {'line': b'byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_client.py to dyros_py_client.cpython-310.pyc\n'}
+[1.947434] (dyros_python) StdoutLine: {'line': b'running install_data\n'}
+[1.947538] (dyros_python) StdoutLine: {'line': b'copying package.xml -> /home/dyros/ros2_ws/install/dyros_python/share/dyros_python\n'}
+[1.947635] (dyros_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.950902] (dyros_python) StdoutLine: {'line': b"removing '/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.951399] (dyros_python) StdoutLine: {'line': b'Copying ../../build/dyros_python/dyros_python.egg-info to /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python-0.0.0-py3.10.egg-info\n'}
+[1.953767] (dyros_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.995652] (dyros_python) StdoutLine: {'line': b'Installing dyros_py_client script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python\n'}
+[1.997722] (dyros_python) StdoutLine: {'line': b'Installing dyros_py_pub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python\n'}
+[1.998566] (dyros_python) StdoutLine: {'line': b'Installing dyros_py_server script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python\n'}
+[1.999059] (dyros_python) StdoutLine: {'line': b'Installing dyros_py_sub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python\n'}
+[2.000096] (dyros_python) StdoutLine: {'line': b"writing list of installed files to '/home/dyros/ros2_ws/build/dyros_python/install.log'\n"}
+[2.010101] (-) TimerEvent: {}
+[2.058504] (dyros_python) CommandEnded: {'returncode': 0}
+[2.110394] (-) TimerEvent: {}
+[2.134084] (dyros_python) JobEnded: {'identifier': 'dyros_python', 'rc': 0}
+[2.136609] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_pub.dir/src/dyros_cpp_pub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable dyros_cpp_pub[0m
+[ 75%] Built target dyros_cpp_pub

@@ -1,0 +1,48 @@
+[0.062s] Invoking command in '/home/dyros/ros2_ws/build/dyros_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_cmake -- -j2 -l2
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target dyros_cpp_sub[0m
+[0.316s] [ 75%] Built target dyros_cpp_pub
+[0.316s] [ 75%] [32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o[0m
+[1.986s] In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[1.986s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:33:[m[K [01;31m[Kerror: [m[Kextended character “ is not valid in an identifier
+[1.986s]    16 | RCLCPP_INFO(this->get_logger(), [01;31m[K“[m[KHello ROS: %d", msg.data); }
+[1.987s]       |                                 [01;31m[K^[m[K
+[1.988s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:47:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.989s]    16 | RCLCPP_INFO(this->get_logger(), “Hello ROS: %d[01;35m[K"[m[K, msg.data); }
+[1.990s]       |                                               [01;35m[K^[m[K
+[1.991s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:18:3:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.991s]    18 | };
+[1.991s]       |   [01;31m[K^[m[K
+[7.019s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.019s]     9 | }
+[7.019s]       |  [01;31m[K^[m[K
+[7.019s] In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[7.020s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:6:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.020s]     6 | class DyrosCppSubscriber : public rclcpp::Node [01;36m[K{[m[K
+[7.020s]       |                                                [01;36m[K^[m[K
+[7.033s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:[m[K In constructor ‘[01m[KDyrosCppSubscriber::DyrosCppSubscriber(std::string, std::string)[m[K’:
+[7.033s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[7.034s]     9 | [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32>(
+[7.034s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[7.034s]       | [32m[Krmw_subscription_t[m[K
+[7.144s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:[m[K In member function ‘[01m[Kvoid DyrosCppSubscriber::topic_callback(const Int32&) const[m[K’:
+[7.144s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[7.144s]    16 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), “Hello ROS: %d", msg.data); }
+[7.144s]       | [01;31m[K^~~~~~~~~~~[m[K
+[7.145s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.145s]     9 | }
+[7.145s]       |  [01;31m[K^[m[K
+[7.145s] In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[7.145s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:61:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.145s]    15 | void topic_callback(const std_msgs::msg::Int32 & msg) const [01;36m[K{[m[K
+[7.145s]       |                                                             [01;36m[K^[m[K
+[7.146s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.146s]    15 | void topic_callback([01;35m[Kconst std_msgs::msg::Int32 & msg[m[K) const {
+[7.146s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.146s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:[m[K At global scope:
+[7.146s] [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[7.146s]     9 | }
+[7.146s]       |  [01;31m[K^[m[K
+[11.651s] gmake[2]: *** [CMakeFiles/dyros_cpp_sub.dir/build.make:76: CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o] Error 1
+[11.652s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dyros_cpp_sub.dir/all] Error 2
+[11.652s] gmake: *** [Makefile:146: all] Error 2
+[11.661s] Invoked command in '/home/dyros/ros2_ws/build/dyros_cmake' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_cmake -- -j2 -l2

@@ -1,0 +1,659 @@
+[0.000000] (-) TimerEvent: {}
+[0.001136] (-) JobUnselected: {'identifier': 'dyros_cmake'}
+[0.002466] (-) JobUnselected: {'identifier': 'dyros_python'}
+[0.002623] (dyros_interface) JobQueued: {'identifier': 'dyros_interface', 'dependencies': OrderedDict()}
+[0.002708] (dyros_interface) JobStarted: {'identifier': 'dyros_interface'}
+[0.098356] (-) TimerEvent: {}
+[0.114967] (dyros_interface) JobProgress: {'identifier': 'dyros_interface', 'progress': 'cmake'}
+[0.115908] (dyros_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/dyros_interface', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_interface'], 'cwd': '/home/dyros/ros2_ws/build/dyros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src/dyros_interface'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1866'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[0.198700] (-) TimerEvent: {}
+[0.299676] (-) TimerEvent: {}
+[0.400297] (-) TimerEvent: {}
+[0.501087] (-) TimerEvent: {}
+[0.558572] (dyros_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.601737] (-) TimerEvent: {}
+[0.702213] (-) TimerEvent: {}
+[0.779594] (dyros_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.802403] (-) TimerEvent: {}
+[0.808930] (dyros_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.902575] (-) TimerEvent: {}
+[0.981643] (dyros_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.002902] (dyros_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.003430] (-) TimerEvent: {}
+[1.004165] (dyros_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.006370] (dyros_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.016412] (dyros_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.104204] (-) TimerEvent: {}
+[1.205229] (-) TimerEvent: {}
+[1.306398] (-) TimerEvent: {}
+[1.365412] (dyros_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.387050] (dyros_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.387617] (dyros_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.389286] (dyros_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.406684] (-) TimerEvent: {}
+[1.410291] (dyros_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.507009] (-) TimerEvent: {}
+[1.607610] (-) TimerEvent: {}
+[1.708442] (-) TimerEvent: {}
+[1.809307] (-) TimerEvent: {}
+[1.909891] (-) TimerEvent: {}
+[2.002230] (dyros_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.010075] (-) TimerEvent: {}
+[2.110602] (-) TimerEvent: {}
+[2.211398] (-) TimerEvent: {}
+[2.312177] (-) TimerEvent: {}
+[2.413716] (-) TimerEvent: {}
+[2.514750] (-) TimerEvent: {}
+[2.616088] (dyros_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.617632] (-) TimerEvent: {}
+[2.718833] (-) TimerEvent: {}
+[2.821637] (-) TimerEvent: {}
+[2.922539] (-) TimerEvent: {}
+[2.953449] (dyros_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.983557] (dyros_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.022912] (-) TimerEvent: {}
+[3.035783] (dyros_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.123443] (-) TimerEvent: {}
+[3.137916] (dyros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.222917] (dyros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.224256] (-) TimerEvent: {}
+[3.324694] (-) TimerEvent: {}
+[3.425325] (-) TimerEvent: {}
+[3.526319] (-) TimerEvent: {}
+[3.627561] (-) TimerEvent: {}
+[3.657602] (dyros_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.727799] (-) TimerEvent: {}
+[3.828529] (-) TimerEvent: {}
+[3.929241] (-) TimerEvent: {}
+[4.030325] (-) TimerEvent: {}
+[4.131092] (-) TimerEvent: {}
+[4.237287] (-) TimerEvent: {}
+[4.338468] (-) TimerEvent: {}
+[4.439964] (-) TimerEvent: {}
+[4.540611] (-) TimerEvent: {}
+[4.644976] (-) TimerEvent: {}
+[4.745594] (-) TimerEvent: {}
+[4.789400] (dyros_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.845803] (-) TimerEvent: {}
+[4.946722] (-) TimerEvent: {}
+[5.049243] (-) TimerEvent: {}
+[5.150141] (-) TimerEvent: {}
+[5.255963] (-) TimerEvent: {}
+[5.357876] (-) TimerEvent: {}
+[5.458632] (-) TimerEvent: {}
+[5.561105] (-) TimerEvent: {}
+[5.661797] (-) TimerEvent: {}
+[5.764141] (-) TimerEvent: {}
+[5.865262] (-) TimerEvent: {}
+[5.966226] (-) TimerEvent: {}
+[6.067298] (-) TimerEvent: {}
+[6.169345] (-) TimerEvent: {}
+[6.270853] (-) TimerEvent: {}
+[6.305854] (dyros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.371191] (-) TimerEvent: {}
+[6.472470] (-) TimerEvent: {}
+[6.574641] (-) TimerEvent: {}
+[6.678948] (-) TimerEvent: {}
+[6.738600] (dyros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.779094] (-) TimerEvent: {}
+[6.799158] (dyros_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[6.805238] (dyros_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.879346] (-) TimerEvent: {}
+[6.888308] (dyros_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[6.889133] (dyros_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.889386] (dyros_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.889564] (dyros_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.962222] (dyros_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.979574] (-) TimerEvent: {}
+[7.080205] (-) TimerEvent: {}
+[7.154736] (dyros_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.180822] (-) TimerEvent: {}
+[7.281495] (-) TimerEvent: {}
+[7.299028] (dyros_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.304241] (dyros_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.319170] (dyros_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.381700] (-) TimerEvent: {}
+[7.482372] (-) TimerEvent: {}
+[7.491590] (dyros_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[7.504140] (dyros_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/dyros_interface\n'}
+[7.532350] (dyros_interface) CommandEnded: {'returncode': 0}
+[7.533383] (dyros_interface) JobProgress: {'identifier': 'dyros_interface', 'progress': 'build'}
+[7.533460] (dyros_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/dyros_interface', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/dyros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src/dyros_interface'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1866'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[7.582602] (-) TimerEvent: {}
+[7.643293] (dyros_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.683000] (-) TimerEvent: {}
+[7.784078] (-) TimerEvent: {}
+[7.886551] (-) TimerEvent: {}
+[7.987955] (-) TimerEvent: {}
+[8.090156] (-) TimerEvent: {}
+[8.190898] (-) TimerEvent: {}
+[8.292024] (-) TimerEvent: {}
+[8.392760] (-) TimerEvent: {}
+[8.496200] (-) TimerEvent: {}
+[8.597192] (-) TimerEvent: {}
+[8.697677] (-) TimerEvent: {}
+[8.798200] (-) TimerEvent: {}
+[8.899069] (-) TimerEvent: {}
+[8.999804] (-) TimerEvent: {}
+[9.013546] (dyros_interface) StdoutLine: {'line': b'[  2%] Built target dyros_interface__cpp\n'}
+[9.029693] (dyros_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.099971] (-) TimerEvent: {}
+[9.200761] (-) TimerEvent: {}
+[9.301402] (-) TimerEvent: {}
+[9.402062] (-) TimerEvent: {}
+[9.502619] (-) TimerEvent: {}
+[9.603188] (-) TimerEvent: {}
+[9.703820] (-) TimerEvent: {}
+[9.804347] (-) TimerEvent: {}
+[9.904876] (-) TimerEvent: {}
+[10.005761] (-) TimerEvent: {}
+[10.064143] (dyros_interface) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/msg/detail/num__functions.c.o\x1b[0m\n'}
+[10.105996] (-) TimerEvent: {}
+[10.206675] (-) TimerEvent: {}
+[10.258049] (dyros_interface) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[10.306902] (-) TimerEvent: {}
+[10.369029] (dyros_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[10.407223] (-) TimerEvent: {}
+[10.508129] (-) TimerEvent: {}
+[10.521534] (dyros_interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libdyros_interface__rosidl_generator_c.so\x1b[0m\n'}
+[10.608388] (-) TimerEvent: {}
+[10.637860] (dyros_interface) StdoutLine: {'line': b'[ 12%] Built target dyros_interface__rosidl_generator_c\n'}
+[10.704436] (dyros_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_dyros_interface\n'}
+[10.708542] (-) TimerEvent: {}
+[10.724202] (dyros_interface) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.808802] (-) TimerEvent: {}
+[10.909295] (-) TimerEvent: {}
+[11.009787] (-) TimerEvent: {}
+[11.110302] (-) TimerEvent: {}
+[11.210924] (-) TimerEvent: {}
+[11.302062] (dyros_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/msg/num__type_support.cpp.o\x1b[0m\n'}
+[11.311496] (-) TimerEvent: {}
+[11.412121] (-) TimerEvent: {}
+[11.512799] (-) TimerEvent: {}
+[11.613600] (-) TimerEvent: {}
+[11.714185] (-) TimerEvent: {}
+[11.814695] (-) TimerEvent: {}
+[11.915384] (-) TimerEvent: {}
+[12.015822] (-) TimerEvent: {}
+[12.083245] (dyros_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[12.116147] (-) TimerEvent: {}
+[12.217196] (-) TimerEvent: {}
+[12.317780] (-) TimerEvent: {}
+[12.418398] (-) TimerEvent: {}
+[12.518942] (-) TimerEvent: {}
+[12.619427] (-) TimerEvent: {}
+[12.721967] (-) TimerEvent: {}
+[12.729748] (dyros_interface) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.822128] (-) TimerEvent: {}
+[12.922577] (-) TimerEvent: {}
+[13.023026] (-) TimerEvent: {}
+[13.123606] (-) TimerEvent: {}
+[13.224191] (-) TimerEvent: {}
+[13.324928] (-) TimerEvent: {}
+[13.329261] (dyros_interface) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.425126] (-) TimerEvent: {}
+[13.450217] (dyros_interface) StdoutLine: {'line': b'[ 23%] Built target dyros_interface__rosidl_typesupport_cpp\n'}
+[13.492466] (dyros_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.525367] (-) TimerEvent: {}
+[13.626193] (-) TimerEvent: {}
+[13.727077] (-) TimerEvent: {}
+[13.827736] (-) TimerEvent: {}
+[13.928283] (-) TimerEvent: {}
+[14.029169] (-) TimerEvent: {}
+[14.130109] (-) TimerEvent: {}
+[14.230758] (-) TimerEvent: {}
+[14.331254] (-) TimerEvent: {}
+[14.432888] (-) TimerEvent: {}
+[14.464897] (dyros_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[14.533069] (-) TimerEvent: {}
+[14.633564] (-) TimerEvent: {}
+[14.734036] (-) TimerEvent: {}
+[14.834579] (-) TimerEvent: {}
+[14.935268] (-) TimerEvent: {}
+[15.036190] (-) TimerEvent: {}
+[15.140976] (-) TimerEvent: {}
+[15.241942] (-) TimerEvent: {}
+[15.342850] (-) TimerEvent: {}
+[15.443547] (-) TimerEvent: {}
+[15.544246] (-) TimerEvent: {}
+[15.606105] (dyros_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[15.644388] (-) TimerEvent: {}
+[15.744942] (-) TimerEvent: {}
+[15.845485] (-) TimerEvent: {}
+[15.946100] (-) TimerEvent: {}
+[16.046553] (-) TimerEvent: {}
+[16.147171] (-) TimerEvent: {}
+[16.251064] (-) TimerEvent: {}
+[16.351784] (-) TimerEvent: {}
+[16.432047] (dyros_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[16.451932] (-) TimerEvent: {}
+[16.552502] (-) TimerEvent: {}
+[16.653517] (-) TimerEvent: {}
+[16.754117] (-) TimerEvent: {}
+[16.854676] (-) TimerEvent: {}
+[16.955337] (-) TimerEvent: {}
+[17.055845] (-) TimerEvent: {}
+[17.098810] (dyros_interface) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.157445] (-) TimerEvent: {}
+[17.258206] (-) TimerEvent: {}
+[17.338740] (dyros_interface) StdoutLine: {'line': b'[ 34%] Built target dyros_interface__rosidl_typesupport_fastrtps_c\n'}
+[17.358387] (-) TimerEvent: {}
+[17.358854] (dyros_interface) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.458620] (-) TimerEvent: {}
+[17.559226] (-) TimerEvent: {}
+[17.660814] (-) TimerEvent: {}
+[17.761303] (-) TimerEvent: {}
+[17.861931] (-) TimerEvent: {}
+[17.962502] (-) TimerEvent: {}
+[18.063063] (-) TimerEvent: {}
+[18.163721] (-) TimerEvent: {}
+[18.264288] (-) TimerEvent: {}
+[18.298727] (dyros_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[18.364445] (-) TimerEvent: {}
+[18.465034] (-) TimerEvent: {}
+[18.566278] (-) TimerEvent: {}
+[18.666782] (-) TimerEvent: {}
+[18.767246] (-) TimerEvent: {}
+[18.867770] (-) TimerEvent: {}
+[18.968272] (-) TimerEvent: {}
+[19.068834] (-) TimerEvent: {}
+[19.169461] (-) TimerEvent: {}
+[19.270049] (-) TimerEvent: {}
+[19.354421] (dyros_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[19.370867] (-) TimerEvent: {}
+[19.471487] (-) TimerEvent: {}
+[19.572101] (-) TimerEvent: {}
+[19.672805] (-) TimerEvent: {}
+[19.773425] (-) TimerEvent: {}
+[19.874873] (-) TimerEvent: {}
+[19.975472] (-) TimerEvent: {}
+[20.076075] (-) TimerEvent: {}
+[20.177604] (-) TimerEvent: {}
+[20.196189] (dyros_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[20.278068] (-) TimerEvent: {}
+[20.378462] (-) TimerEvent: {}
+[20.478932] (-) TimerEvent: {}
+[20.579415] (-) TimerEvent: {}
+[20.679945] (-) TimerEvent: {}
+[20.780793] (-) TimerEvent: {}
+[20.881339] (-) TimerEvent: {}
+[20.981848] (-) TimerEvent: {}
+[21.082450] (-) TimerEvent: {}
+[21.107785] (dyros_interface) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.182625] (-) TimerEvent: {}
+[21.283172] (-) TimerEvent: {}
+[21.371542] (dyros_interface) StdoutLine: {'line': b'[ 44%] Built target dyros_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[21.383457] (-) TimerEvent: {}
+[21.433028] (dyros_interface) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.488884] (-) TimerEvent: {}
+[21.589520] (-) TimerEvent: {}
+[21.690120] (-) TimerEvent: {}
+[21.793023] (-) TimerEvent: {}
+[21.893579] (-) TimerEvent: {}
+[21.994040] (-) TimerEvent: {}
+[22.094707] (-) TimerEvent: {}
+[22.195564] (-) TimerEvent: {}
+[22.296468] (-) TimerEvent: {}
+[22.365388] (dyros_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[22.396826] (-) TimerEvent: {}
+[22.492217] (dyros_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[22.497141] (-) TimerEvent: {}
+[22.600853] (-) TimerEvent: {}
+[22.610808] (dyros_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[22.701943] (-) TimerEvent: {}
+[22.738502] (dyros_interface) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libdyros_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.802266] (-) TimerEvent: {}
+[22.877821] (dyros_interface) StdoutLine: {'line': b'[ 55%] Built target dyros_interface__rosidl_typesupport_introspection_c\n'}
+[22.904893] (-) TimerEvent: {}
+[22.911029] (dyros_interface) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.005062] (-) TimerEvent: {}
+[23.105849] (-) TimerEvent: {}
+[23.206555] (-) TimerEvent: {}
+[23.307263] (-) TimerEvent: {}
+[23.408347] (-) TimerEvent: {}
+[23.509940] (-) TimerEvent: {}
+[23.610731] (-) TimerEvent: {}
+[23.711211] (-) TimerEvent: {}
+[23.811957] (-) TimerEvent: {}
+[23.904002] (dyros_interface) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/msg/num__type_support.cpp.o\x1b[0m\n'}
+[23.912199] (-) TimerEvent: {}
+[23.988392] (dyros_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[24.012410] (-) TimerEvent: {}
+[24.042925] (dyros_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[24.111681] (dyros_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.112525] (-) TimerEvent: {}
+[24.213219] (-) TimerEvent: {}
+[24.214303] (dyros_interface) StdoutLine: {'line': b'[ 65%] Built target dyros_interface__rosidl_typesupport_c\n'}
+[24.250237] (dyros_interface) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[24.313368] (-) TimerEvent: {}
+[24.414071] (-) TimerEvent: {}
+[24.514625] (-) TimerEvent: {}
+[24.615233] (-) TimerEvent: {}
+[24.715762] (-) TimerEvent: {}
+[24.816248] (-) TimerEvent: {}
+[24.916966] (-) TimerEvent: {}
+[25.017618] (-) TimerEvent: {}
+[25.030825] (dyros_interface) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[25.117891] (-) TimerEvent: {}
+[25.218845] (-) TimerEvent: {}
+[25.319818] (-) TimerEvent: {}
+[25.421018] (-) TimerEvent: {}
+[25.521805] (-) TimerEvent: {}
+[25.622422] (-) TimerEvent: {}
+[25.723085] (-) TimerEvent: {}
+[25.823830] (-) TimerEvent: {}
+[25.865420] (dyros_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[25.924036] (-) TimerEvent: {}
+[26.024748] (-) TimerEvent: {}
+[26.125786] (-) TimerEvent: {}
+[26.226485] (-) TimerEvent: {}
+[26.327170] (-) TimerEvent: {}
+[26.428066] (-) TimerEvent: {}
+[26.529117] (-) TimerEvent: {}
+[26.629896] (-) TimerEvent: {}
+[26.655408] (dyros_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[26.730096] (-) TimerEvent: {}
+[26.831165] (-) TimerEvent: {}
+[26.931727] (-) TimerEvent: {}
+[27.032371] (-) TimerEvent: {}
+[27.133079] (-) TimerEvent: {}
+[27.233560] (-) TimerEvent: {}
+[27.334221] (-) TimerEvent: {}
+[27.434803] (-) TimerEvent: {}
+[27.529382] (dyros_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[27.535033] (-) TimerEvent: {}
+[27.635939] (-) TimerEvent: {}
+[27.738786] (-) TimerEvent: {}
+[27.813849] (dyros_interface) StdoutLine: {'line': b'[ 76%] Built target dyros_interface__rosidl_typesupport_introspection_cpp\n'}
+[27.838996] (-) TimerEvent: {}
+[27.939660] (-) TimerEvent: {}
+[28.040154] (-) TimerEvent: {}
+[28.141061] (-) TimerEvent: {}
+[28.242171] (-) TimerEvent: {}
+[28.343659] (-) TimerEvent: {}
+[28.444535] (-) TimerEvent: {}
+[28.545565] (-) TimerEvent: {}
+[28.646134] (-) TimerEvent: {}
+[28.746976] (-) TimerEvent: {}
+[28.847606] (-) TimerEvent: {}
+[28.948083] (-) TimerEvent: {}
+[29.048602] (-) TimerEvent: {}
+[29.151235] (-) TimerEvent: {}
+[29.252081] (-) TimerEvent: {}
+[29.255559] (dyros_interface) StdoutLine: {'line': b'running egg_info\n'}
+[29.257591] (dyros_interface) StdoutLine: {'line': b'creating dyros_interface.egg-info\n'}
+[29.258763] (dyros_interface) StdoutLine: {'line': b'writing dyros_interface.egg-info/PKG-INFO\n'}
+[29.259947] (dyros_interface) StdoutLine: {'line': b'writing dependency_links to dyros_interface.egg-info/dependency_links.txt\n'}
+[29.261740] (dyros_interface) StdoutLine: {'line': b'writing top-level names to dyros_interface.egg-info/top_level.txt\n'}
+[29.263488] (dyros_interface) StdoutLine: {'line': b"writing manifest file 'dyros_interface.egg-info/SOURCES.txt'\n"}
+[29.272357] (dyros_interface) StdoutLine: {'line': b"reading manifest file 'dyros_interface.egg-info/SOURCES.txt'\n"}
+[29.274387] (dyros_interface) StdoutLine: {'line': b"writing manifest file 'dyros_interface.egg-info/SOURCES.txt'\n"}
+[29.342954] (dyros_interface) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_dyros_interface_egg\n'}
+[29.352491] (-) TimerEvent: {}
+[29.390022] (dyros_interface) StdoutLine: {'line': b'[ 76%] Built target dyros_interface\n'}
+[29.452818] (-) TimerEvent: {}
+[29.469097] (dyros_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[29.552972] (-) TimerEvent: {}
+[29.654310] (-) TimerEvent: {}
+[29.755040] (-) TimerEvent: {}
+[29.857533] (-) TimerEvent: {}
+[29.958387] (-) TimerEvent: {}
+[30.059331] (-) TimerEvent: {}
+[30.160872] (-) TimerEvent: {}
+[30.262434] (-) TimerEvent: {}
+[30.363571] (-) TimerEvent: {}
+[30.464534] (-) TimerEvent: {}
+[30.565771] (-) TimerEvent: {}
+[30.666801] (-) TimerEvent: {}
+[30.767829] (-) TimerEvent: {}
+[30.868752] (-) TimerEvent: {}
+[30.969704] (-) TimerEvent: {}
+[31.070638] (-) TimerEvent: {}
+[31.171345] (-) TimerEvent: {}
+[31.213956] (dyros_interface) StdoutLine: {'line': b'[ 78%] Built target dyros_interface__py\n'}
+[31.263696] (dyros_interface) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/msg/_num_s.c.o\x1b[0m\n'}
+[31.271576] (-) TimerEvent: {}
+[31.372154] (-) TimerEvent: {}
+[31.472720] (-) TimerEvent: {}
+[31.573278] (-) TimerEvent: {}
+[31.670931] (dyros_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/msg/_sphere_s.c.o\x1b[0m\n'}
+[31.673464] (-) TimerEvent: {}
+[31.774146] (-) TimerEvent: {}
+[31.873290] (dyros_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[31.874511] (-) TimerEvent: {}
+[31.977336] (-) TimerEvent: {}
+[32.078518] (-) TimerEvent: {}
+[32.170713] (dyros_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dyros_interface/libdyros_interface__rosidl_generator_py.so\x1b[0m\n'}
+[32.178751] (-) TimerEvent: {}
+[32.279293] (-) TimerEvent: {}
+[32.374534] (dyros_interface) StdoutLine: {'line': b'[ 87%] Built target dyros_interface__rosidl_generator_py\n'}
+[32.379511] (-) TimerEvent: {}
+[32.451273] (dyros_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.481936] (-) TimerEvent: {}
+[32.583445] (-) TimerEvent: {}
+[32.686793] (-) TimerEvent: {}
+[32.772539] (dyros_interface) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[32.786995] (-) TimerEvent: {}
+[32.887703] (dyros_interface) StdoutLine: {'line': b'[ 91%] Built target dyros_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[32.888026] (-) TimerEvent: {}
+[32.944856] (dyros_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.988405] (-) TimerEvent: {}
+[33.089557] (-) TimerEvent: {}
+[33.170754] (dyros_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[33.189727] (-) TimerEvent: {}
+[33.290196] (-) TimerEvent: {}
+[33.304950] (dyros_interface) StdoutLine: {'line': b'[ 95%] Built target dyros_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[33.363873] (dyros_interface) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[33.390514] (-) TimerEvent: {}
+[33.491084] (-) TimerEvent: {}
+[33.591629] (-) TimerEvent: {}
+[33.613303] (dyros_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[33.692371] (-) TimerEvent: {}
+[33.731964] (dyros_interface) StdoutLine: {'line': b'[100%] Built target dyros_interface__rosidl_typesupport_c__pyext\n'}
+[33.789883] (dyros_interface) CommandEnded: {'returncode': 0}
+[33.800581] (-) TimerEvent: {}
+[33.902262] (-) TimerEvent: {}
+[34.003093] (-) TimerEvent: {}
+[34.085815] (dyros_interface) JobProgress: {'identifier': 'dyros_interface', 'progress': 'install'}
+[34.103313] (-) TimerEvent: {}
+[34.115210] (dyros_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/dyros_interface'], 'cwd': '/home/dyros/ros2_ws/build/dyros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src/dyros_interface'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1866'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[34.155379] (dyros_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.157980] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/rosidl_interfaces/dyros_interface\n'}
+[34.159238] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.159991] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.160453] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/sphere.h\n'}
+[34.161362] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.161813] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__struct.h\n'}
+[34.162263] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__struct.h\n'}
+[34.162790] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.h\n'}
+[34.163301] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__functions.h\n'}
+[34.163687] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__functions.h\n'}
+[34.164118] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.h\n'}
+[34.166039] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__functions.c\n'}
+[34.167043] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__functions.c\n'}
+[34.168061] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/num.h\n'}
+[34.168433] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[34.168977] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.169613] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/add_three_ints.h\n'}
+[34.170193] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.170389] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.h\n'}
+[34.171122] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__functions.c\n'}
+[34.171566] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__functions.h\n'}
+[34.172207] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__struct.h\n'}
+[34.173223] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/library_path.sh\n'}
+[34.174243] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/library_path.dsv\n'}
+[34.175194] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_c.so\n'}
+[34.176102] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_c.so" to ""\n'}
+[34.179017] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.179436] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.179911] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[34.180224] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.180942] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[34.182380] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[34.182992] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.183340] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.183681] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[34.183873] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[34.184293] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[34.184475] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.188992] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.189340] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/sphere.hpp\n'}
+[34.190022] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/num.hpp\n'}
+[34.190739] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.191751] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__struct.hpp\n'}
+[34.192725] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__traits.hpp\n'}
+[34.193079] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__builder.hpp\n'}
+[34.193726] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__builder.hpp\n'}
+[34.194250] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__struct.hpp\n'}
+[34.195285] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__traits.hpp\n'}
+[34.196401] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.196880] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/add_three_ints.hpp\n'}
+[34.198106] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.198441] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__struct.hpp\n'}
+[34.199282] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__builder.hpp\n'}
+[34.199619] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__traits.hpp\n'}
+[34.200102] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.200927] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.202029] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[34.203341] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.203844] (-) TimerEvent: {}
+[34.209084] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.209458] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/dds_fastrtps\n'}
+[34.209664] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.209858] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.210041] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.210292] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/dds_fastrtps\n'}
+[34.210489] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.210678] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[34.210842] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[34.211027] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.211300] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.211494] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.211681] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[34.211856] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[34.212048] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.c\n'}
+[34.212281] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.c\n'}
+[34.213795] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[34.214421] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.215922] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.216200] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.c\n'}
+[34.217328] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[34.219648] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_c.so\n'}
+[34.219884] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[34.220098] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_c.so\n'}
+[34.220275] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_c.so" to ""\n'}
+[34.220496] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface\n'}
+[34.220790] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg\n'}
+[34.220999] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail\n'}
+[34.223544] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.224457] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.cpp\n'}
+[34.225755] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.cpp\n'}
+[34.226050] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.226976] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv\n'}
+[34.227380] (dyros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail\n'}
+[34.227574] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.227820] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.cpp\n'}
+[34.233144] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[34.233453] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[34.233726] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_cpp.so\n'}
+[34.234074] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[34.234357] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/pythonpath.sh\n'}
+[34.234860] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/pythonpath.dsv\n'}
+[34.235666] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info\n'}
+[34.235931] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[34.241038] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[34.241225] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[34.241334] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[34.241436] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface\n'}
+[34.241534] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[34.241651] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/libdyros_interface__rosidl_generator_py.so\n'}
+[34.241746] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg\n'}
+[34.241842] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere.py\n'}
+[34.241963] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num.py\n'}
+[34.242085] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num_s.c\n'}
+[34.242179] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere_s.c\n'}
+[34.242293] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/__init__.py\n'}
+[34.242389] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.242484] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.242592] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.242688] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[34.242781] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/__init__.py\n'}
+[34.242875] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv\n'}
+[34.243022] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints.py\n'}
+[34.243123] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/__init__.py\n'}
+[34.243221] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints_s.c\n'}
+[34.243314] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_c.c\n'}
+[34.304165] (-) TimerEvent: {}
+[34.386098] (dyros_interface) StdoutLine: {'line': b"Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface'...\n"}
+[34.386791] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/__init__.py'...\n"}
+[34.387193] (dyros_interface) StdoutLine: {'line': b"Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg'...\n"}
+[34.387549] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/__init__.py'...\n"}
+[34.387940] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num.py'...\n"}
+[34.388386] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere.py'...\n"}
+[34.388985] (dyros_interface) StdoutLine: {'line': b"Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv'...\n"}
+[34.389263] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/__init__.py'...\n"}
+[34.389437] (dyros_interface) StdoutLine: {'line': b"Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints.py'...\n"}
+[34.402911] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.403311] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.403741] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.404157] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.404349] (-) TimerEvent: {}
+[34.404924] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.405276] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.405685] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_py.so\n'}
+[34.406600] (dyros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_py.so" to ""\n'}
+[34.407002] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Num.idl\n'}
+[34.407325] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Sphere.idl\n'}
+[34.407829] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts.idl\n'}
+[34.408876] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Num.msg\n'}
+[34.409379] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Sphere.msg\n'}
+[34.409913] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts.srv\n'}
+[34.415837] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts_Request.msg\n'}
+[34.416773] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts_Response.msg\n'}
+[34.417576] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/package_run_dependencies/dyros_interface\n'}
+[34.418612] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/parent_prefix_path/dyros_interface\n'}
+[34.419522] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/ament_prefix_path.sh\n'}
+[34.420795] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/ament_prefix_path.dsv\n'}
+[34.421511] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/path.sh\n'}
+[34.422310] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/path.dsv\n'}
+[34.423210] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.bash\n'}
+[34.424024] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.sh\n'}
+[34.424933] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.zsh\n'}
+[34.427252] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.dsv\n'}
+[34.428097] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/package.dsv\n'}
+[34.429158] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/packages/dyros_interface\n'}
+[34.429771] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cExport.cmake\n'}
+[34.430424] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.431168] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[34.432072] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[34.433806] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cppExport.cmake\n'}
+[34.435684] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[34.437645] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[34.438082] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.438650] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.439854] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cExport.cmake\n'}
+[34.440574] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.441984] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.443700] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.447648] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cppExport.cmake\n'}
+[34.449353] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.450598] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_pyExport.cmake\n'}
+[34.451524] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[34.452715] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[34.453788] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.454838] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.455800] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.457011] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.458400] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.459814] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.460755] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interfaceConfig.cmake\n'}
+[34.461713] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interfaceConfig-version.cmake\n'}
+[34.462763] (dyros_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/package.xml\n'}
+[34.474629] (dyros_interface) CommandEnded: {'returncode': 0}
+[34.505196] (-) TimerEvent: {}
+[34.605963] (-) TimerEvent: {}
+[34.706660] (-) TimerEvent: {}
+[34.807252] (-) TimerEvent: {}
+[34.914368] (-) TimerEvent: {}
+[34.972576] (dyros_interface) JobEnded: {'identifier': 'dyros_interface', 'rc': 0}
+[34.974237] (-) EventReactorShutdown: {}

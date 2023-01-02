@@ -1,0 +1,32 @@
+[1.608s] Invoking command in '/home/dyros/ros2_ws/src/dyros_python': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed
+[2.076s] running egg_info
+[2.077s] creating ../../build/dyros_python/dyros_python.egg-info
+[2.077s] writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO
+[2.078s] writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt
+[2.079s] writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt
+[2.079s] writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt
+[2.079s] writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt
+[2.080s] writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[2.083s] package init file 'dyros_python/__init__.py' not found (or not a regular file)
+[2.085s] reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[2.086s] writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.087s] running build_py
+[2.087s] creating /home/dyros/ros2_ws/build/dyros_python/build
+[2.088s] creating /home/dyros/ros2_ws/build/dyros_python/build/lib
+[2.088s] creating /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[2.088s] copying dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[2.089s] copying dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[2.090s] running install
+[2.091s] running install_lib
+[2.093s] creating /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[2.093s] copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[2.093s] copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[2.095s] byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_pub.py to dyros_py_pub.cpython-310.pyc
+[2.096s] byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_sub.py to dyros_py_sub.cpython-310.pyc
+[2.097s] running install_data
+[2.098s] creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index
+[2.099s] creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index/resource_index
+[2.099s] creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index/resource_index/packages
+[2.100s] error: can't copy 'resource/dyros_python': doesn't exist or not a regular file
+[2.150s] Invoked command in '/home/dyros/ros2_ws/src/dyros_python' returned '1': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed

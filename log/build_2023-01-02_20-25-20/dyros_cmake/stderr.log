@@ -1,0 +1,53 @@
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:1:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    1 | #include [01;35m[K"[m[Krclcpp/rclcpp.hpp“
+      |          [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:1:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp“[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<dyros_interface::srv::AddThreeInts_Request_<std::allocator<void> > >, std::shared_ptr<dyros_interface::srv::AddThreeInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    7 | RCLCPP_INFO([01;31m[Krclcpp[m[K::get_logger("rclcpp"), "Incoming request\na: %d" " b: %d" " c: %d",
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+    7 | [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Incoming request\na: %d" " b: %d" " c: %d",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   11 | RCLCPP_INFO([01;31m[Krclcpp[m[K::get_logger("rclcpp"), "sending back response: [%d]", (int)response->sum);
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:14:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   14 | [01;31m[Krclcpp[m[K::init(argc, argv);
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:15:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ was not declared in this scope
+   15 | std::shared_ptr<[01;31m[Krclcpp[m[K::Node> node = rclcpp::Node::make_shared("add_three_ints_server");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:15:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 | std::shared_ptr<rclcpp::Node[01;31m[K>[m[K node = rclcpp::Node::make_shared("add_three_ints_server");
+      |                             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:15:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ is not a class, namespace, or enumeration
+   15 | std::shared_ptr<rclcpp::Node> node = [01;31m[Krclcpp[m[K::Node::make_shared("add_three_ints_server");
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ is not a class, namespace, or enumeration
+   16 | [01;31m[Krclcpp[m[K::Service<dyros_interface::srv::AddThreeInts>::SharedPtr service =
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:16:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   16 | rclcpp::Service<dyros_interface::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr service =
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:16:54:[m[K [01;31m[Kerror: [m[K‘[01m[K::SharedPtr[m[K’ has not been declared
+   16 | rclcpp::Service<dyros_interface::srv::AddThreeInts>::[01;31m[KSharedPtr[m[K service =
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ is not a class, namespace, or enumeration
+   18 | RCLCPP_INFO([01;31m[Krclcpp[m[K::get_logger("rclcpp"), "Ready to add three ints.");
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:18:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   18 | [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Ready to add three ints.");
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:19:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ is not a class, namespace, or enumeration
+   19 | [01;31m[Krclcpp[m[K::spin(node);
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:20:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ is not a class, namespace, or enumeration
+   20 | [01;31m[Krclcpp[m[K::shutdown();
+      | [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dyros_cpp_server.dir/build.make:76: CMakeFiles/dyros_cpp_server.dir/src/dyros_cpp_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/dyros_cpp_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,19 @@
+[1.858s] Invoking command in '/home/dyros/ros2_ws/src/dyros_python': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed
+[2.346s] running egg_info
+[2.346s] writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO
+[2.349s] writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt
+[2.350s] writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt
+[2.352s] writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt
+[2.353s] writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt
+[2.358s] reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[2.361s] writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[2.362s] running build
+[2.363s] running build_py
+[2.368s] copying dyros_python/__init__.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[2.369s] running install
+[2.370s] running install_lib
+[2.373s] copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/__init__.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[2.376s] byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/__init__.py to __init__.cpython-310.pyc
+[2.377s] running install_data
+[2.381s] error: can't copy 'resource/dyros_python': doesn't exist or not a regular file
+[2.448s] Invoked command in '/home/dyros/ros2_ws/src/dyros_python' returned '1': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed

@@ -1,0 +1,29 @@
+[0.115s] Invoking command in '/home/dyros/ros2_ws/build/dyros_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_cmake -- -j2 -l2
+[0.565s] [ 50%] Built target dyros_cpp_pub
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target dyros_cpp_sub[0m
+[0.699s] [ 75%] [32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o[0m
+[40.909s] [100%] [32m[1mLinking CXX executable dyros_cpp_sub[0m
+[43.083s] [100%] Built target dyros_cpp_sub
+[43.403s] Invoked command in '/home/dyros/ros2_ws/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_cmake -- -j2 -l2
+[43.794s] Invoking command in '/home/dyros/ros2_ws/build/dyros_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/dyros_cmake
+[43.825s] -- Install configuration: ""
+[43.828s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub
+[43.837s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub" to ""
+[43.837s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub
+[43.850s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub" to ""
+[43.853s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/package_run_dependencies/dyros_cmake
+[43.855s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/parent_prefix_path/dyros_cmake
+[43.860s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.sh
+[43.862s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.dsv
+[43.863s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.sh
+[43.864s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.dsv
+[43.865s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.bash
+[43.867s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.sh
+[43.868s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.zsh
+[43.871s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.dsv
+[43.873s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.dsv
+[43.875s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/packages/dyros_cmake
+[43.879s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig.cmake
+[43.880s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig-version.cmake
+[43.882s] -- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.xml
+[43.897s] Invoked command in '/home/dyros/ros2_ws/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/dyros_cmake

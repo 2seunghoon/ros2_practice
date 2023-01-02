@@ -1,0 +1,48 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_pub.dir/src/dyros_cpp_pub.cpp.o[0m
+In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:33:[m[K [01;31m[Kerror: [m[Kextended character “ is not valid in an identifier
+   16 | RCLCPP_INFO(this->get_logger(), [01;31m[K“[m[KHello ROS: %d", msg.data); }
+      |                                 [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:47:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   16 | RCLCPP_INFO(this->get_logger(), “Hello ROS: %d[01;35m[K"[m[K, msg.data); }
+      |                                               [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:18:3:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   18 | };
+      |   [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+    9 | }
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:6:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    6 | class DyrosCppSubscriber : public rclcpp::Node [01;36m[K{[m[K
+      |                                                [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:[m[K In constructor ‘[01m[KDyrosCppSubscriber::DyrosCppSubscriber(std::string, std::string)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+    9 | [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32>(
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+      | [32m[Krmw_subscription_t[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:[m[K In member function ‘[01m[Kvoid DyrosCppSubscriber::topic_callback(const Int32&) const[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   16 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), “Hello ROS: %d", msg.data); }
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+    9 | }
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:61:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | void topic_callback(const std_msgs::msg::Int32 & msg) const [01;36m[K{[m[K
+      |                                                             [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | void topic_callback([01;35m[Kconst std_msgs::msg::Int32 & msg[m[K) const {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:[m[K At global scope:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+    9 | }
+      |  [01;31m[K^[m[K
+[ 75%] [32m[1mLinking CXX executable dyros_cpp_pub[0m
+gmake[2]: *** [CMakeFiles/dyros_cpp_sub.dir/build.make:76: CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dyros_cpp_sub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] Built target dyros_cpp_pub
+gmake: *** [Makefile:146: all] Error 2

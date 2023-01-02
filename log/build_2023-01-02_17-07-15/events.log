@@ -1,0 +1,581 @@
+[0.000000] (-) TimerEvent: {}
+[0.000293] (dyros_cmake) JobQueued: {'identifier': 'dyros_cmake', 'dependencies': OrderedDict()}
+[0.000353] (dyros_cmake) JobStarted: {'identifier': 'dyros_cmake'}
+[0.047858] (dyros_cmake) JobProgress: {'identifier': 'dyros_cmake', 'progress': 'cmake'}
+[0.048296] (dyros_cmake) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/dyros_cmake', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_cmake'], 'cwd': '/home/dyros/ros2_ws/build/dyros_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src/dyros_cmake'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1593,unix/dyros-VirtualBox:/tmp/.ICE-unix/1593'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3413996d_3d85_438f_9699_a4d44d00a660'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098196] (-) TimerEvent: {}
+[0.198811] (-) TimerEvent: {}
+[0.299245] (-) TimerEvent: {}
+[0.399773] (-) TimerEvent: {}
+[0.422503] (dyros_cmake) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.500037] (-) TimerEvent: {}
+[0.600553] (-) TimerEvent: {}
+[0.665955] (dyros_cmake) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.695543] (dyros_cmake) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700789] (-) TimerEvent: {}
+[0.801586] (-) TimerEvent: {}
+[0.903090] (-) TimerEvent: {}
+[0.966229] (dyros_cmake) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.992649] (dyros_cmake) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.995373] (dyros_cmake) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.999715] (dyros_cmake) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.003379] (-) TimerEvent: {}
+[1.016366] (dyros_cmake) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105311] (-) TimerEvent: {}
+[1.208262] (-) TimerEvent: {}
+[1.274075] (dyros_cmake) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.295512] (dyros_cmake) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.296292] (dyros_cmake) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.298844] (dyros_cmake) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.308895] (-) TimerEvent: {}
+[1.331663] (dyros_cmake) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.409220] (-) TimerEvent: {}
+[1.510642] (-) TimerEvent: {}
+[1.611615] (-) TimerEvent: {}
+[1.712414] (-) TimerEvent: {}
+[1.813529] (-) TimerEvent: {}
+[1.860147] (dyros_cmake) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.913734] (-) TimerEvent: {}
+[2.014660] (-) TimerEvent: {}
+[2.115309] (-) TimerEvent: {}
+[2.216314] (-) TimerEvent: {}
+[2.222921] (dyros_cmake) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.316586] (-) TimerEvent: {}
+[2.417406] (-) TimerEvent: {}
+[2.518551] (-) TimerEvent: {}
+[2.523358] (dyros_cmake) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.549706] (dyros_cmake) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.598679] (dyros_cmake) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.618954] (-) TimerEvent: {}
+[2.685161] (dyros_cmake) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.719413] (-) TimerEvent: {}
+[2.794569] (dyros_cmake) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.819676] (-) TimerEvent: {}
+[2.920385] (-) TimerEvent: {}
+[3.020994] (-) TimerEvent: {}
+[3.085296] (dyros_cmake) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.093957] (dyros_cmake) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.121224] (-) TimerEvent: {}
+[3.221896] (-) TimerEvent: {}
+[3.322395] (-) TimerEvent: {}
+[3.348127] (dyros_cmake) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.422206] (dyros_cmake) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.422564] (-) TimerEvent: {}
+[3.523164] (-) TimerEvent: {}
+[3.572740] (dyros_cmake) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.623478] (-) TimerEvent: {}
+[3.636008] (dyros_cmake) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.723899] (-) TimerEvent: {}
+[3.824624] (-) TimerEvent: {}
+[3.916451] (dyros_cmake) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.917600] (dyros_cmake) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.924913] (-) TimerEvent: {}
+[4.025977] (-) TimerEvent: {}
+[4.126964] (-) TimerEvent: {}
+[4.228293] (-) TimerEvent: {}
+[4.259427] (dyros_cmake) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.268144] (dyros_cmake) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.328801] (-) TimerEvent: {}
+[4.430165] (-) TimerEvent: {}
+[4.531062] (-) TimerEvent: {}
+[4.632161] (-) TimerEvent: {}
+[4.733369] (-) TimerEvent: {}
+[4.837759] (-) TimerEvent: {}
+[4.938952] (-) TimerEvent: {}
+[5.040077] (-) TimerEvent: {}
+[5.140959] (-) TimerEvent: {}
+[5.241584] (-) TimerEvent: {}
+[5.324719] (dyros_cmake) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.341893] (-) TimerEvent: {}
+[5.442678] (-) TimerEvent: {}
+[5.543330] (-) TimerEvent: {}
+[5.629522] (dyros_cmake) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.630818] (dyros_cmake) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dyros/ros2_ws/src/dyros_cmake/include\n'}
+[5.631096] (dyros_cmake) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.634948] (dyros_cmake) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.640016] (dyros_cmake) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.640358] (dyros_cmake) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.643661] (-) TimerEvent: {}
+[5.644258] (dyros_cmake) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.649891] (dyros_cmake) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.694324] (dyros_cmake) StdoutLine: {'line': b'-- Generating done\n'}
+[5.701493] (dyros_cmake) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/dyros_cmake\n'}
+[5.734305] (dyros_cmake) CommandEnded: {'returncode': 0}
+[5.735419] (dyros_cmake) JobProgress: {'identifier': 'dyros_cmake', 'progress': 'build'}
+[5.735496] (dyros_cmake) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/dyros_cmake', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/dyros_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src/dyros_cmake'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1593,unix/dyros-VirtualBox:/tmp/.ICE-unix/1593'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3413996d_3d85_438f_9699_a4d44d00a660'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.300'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.744041] (-) TimerEvent: {}
+[5.844676] (-) TimerEvent: {}
+[5.884273] (dyros_cmake) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dyros_cpp_pub.dir/src/dyros_cpp_pub.cpp.o\x1b[0m\n'}
+[5.888603] (dyros_cmake) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o\x1b[0m\n'}
+[5.945022] (-) TimerEvent: {}
+[6.046270] (-) TimerEvent: {}
+[6.147087] (-) TimerEvent: {}
+[6.248068] (-) TimerEvent: {}
+[6.349011] (-) TimerEvent: {}
+[6.450665] (-) TimerEvent: {}
+[6.551378] (-) TimerEvent: {}
+[6.652003] (-) TimerEvent: {}
+[6.758255] (-) TimerEvent: {}
+[6.809188] (dyros_cmake) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1\x1b[m\x1b[K:\n'}
+[6.810197] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextended character \xe2\x80\x9c is not valid in an identifier\n'}
+[6.810490] (dyros_cmake) StderrLine: {'line': b'   16 | RCLCPP_INFO(this->get_logger(), \x1b[01;31m\x1b[K\xe2\x80\x9c\x1b[m\x1b[KHello ROS: %d", msg.data); }\n'}
+[6.810604] (dyros_cmake) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.810701] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[6.810991] (dyros_cmake) StderrLine: {'line': b'   16 | RCLCPP_INFO(this->get_logger(), \xe2\x80\x9cHello ROS: %d\x1b[01;35m\x1b[K"\x1b[m\x1b[K, msg.data); }\n'}
+[6.811169] (dyros_cmake) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.811579] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:18:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[6.811865] (dyros_cmake) StderrLine: {'line': b'   18 | };\n'}
+[6.812040] (dyros_cmake) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.858862] (-) TimerEvent: {}
+[6.959489] (-) TimerEvent: {}
+[7.060220] (-) TimerEvent: {}
+[7.160881] (-) TimerEvent: {}
+[7.262799] (-) TimerEvent: {}
+[7.363256] (-) TimerEvent: {}
+[7.463710] (-) TimerEvent: {}
+[7.564344] (-) TimerEvent: {}
+[7.664767] (-) TimerEvent: {}
+[7.765265] (-) TimerEvent: {}
+[7.874571] (-) TimerEvent: {}
+[7.975211] (-) TimerEvent: {}
+[8.095047] (-) TimerEvent: {}
+[8.195577] (-) TimerEvent: {}
+[8.296189] (-) TimerEvent: {}
+[8.396836] (-) TimerEvent: {}
+[8.497406] (-) TimerEvent: {}
+[8.598108] (-) TimerEvent: {}
+[8.702833] (-) TimerEvent: {}
+[8.807568] (-) TimerEvent: {}
+[8.921075] (-) TimerEvent: {}
+[9.027605] (-) TimerEvent: {}
+[9.218447] (-) TimerEvent: {}
+[9.461366] (-) TimerEvent: {}
+[9.598937] (-) TimerEvent: {}
+[9.809901] (-) TimerEvent: {}
+[10.052608] (-) TimerEvent: {}
+[10.252901] (-) TimerEvent: {}
+[10.409074] (-) TimerEvent: {}
+[10.601117] (-) TimerEvent: {}
+[10.750675] (-) TimerEvent: {}
+[10.875454] (-) TimerEvent: {}
+[11.038419] (-) TimerEvent: {}
+[11.371942] (-) TimerEvent: {}
+[11.871575] (-) TimerEvent: {}
+[12.276176] (-) TimerEvent: {}
+[13.006951] (-) TimerEvent: {}
+[14.371998] (-) TimerEvent: {}
+[15.905710] (-) TimerEvent: {}
+[18.241663] (-) TimerEvent: {}
+[20.607549] (-) TimerEvent: {}
+[22.218990] (-) TimerEvent: {}
+[23.216619] (-) TimerEvent: {}
+[25.235541] (-) TimerEvent: {}
+[28.433754] (-) TimerEvent: {}
+[28.658874] (-) TimerEvent: {}
+[29.614890] (-) TimerEvent: {}
+[31.061968] (-) TimerEvent: {}
+[32.237266] (-) TimerEvent: {}
+[32.664424] (-) TimerEvent: {}
+[33.365686] (-) TimerEvent: {}
+[33.872429] (-) TimerEvent: {}
+[34.810329] (-) TimerEvent: {}
+[35.806867] (-) TimerEvent: {}
+[37.697932] (-) TimerEvent: {}
+[40.028417] (-) TimerEvent: {}
+[43.460207] (-) TimerEvent: {}
+[45.545930] (-) TimerEvent: {}
+[49.811402] (-) TimerEvent: {}
+[55.628666] (-) TimerEvent: {}
+[75.525838] (-) TimerEvent: {}
+[75.632752] (-) TimerEvent: {}
+[75.738529] (-) TimerEvent: {}
+[75.841714] (-) TimerEvent: {}
+[75.945509] (-) TimerEvent: {}
+[76.047487] (-) TimerEvent: {}
+[76.148007] (-) TimerEvent: {}
+[76.250117] (-) TimerEvent: {}
+[76.350672] (-) TimerEvent: {}
+[76.452011] (-) TimerEvent: {}
+[76.563042] (-) TimerEvent: {}
+[76.663574] (-) TimerEvent: {}
+[76.764160] (-) TimerEvent: {}
+[76.864731] (-) TimerEvent: {}
+[76.965543] (-) TimerEvent: {}
+[77.066316] (-) TimerEvent: {}
+[77.167136] (-) TimerEvent: {}
+[77.267973] (-) TimerEvent: {}
+[77.368550] (-) TimerEvent: {}
+[77.471912] (-) TimerEvent: {}
+[77.575449] (-) TimerEvent: {}
+[77.675996] (-) TimerEvent: {}
+[77.777279] (-) TimerEvent: {}
+[77.883259] (-) TimerEvent: {}
+[77.983876] (-) TimerEvent: {}
+[78.084793] (-) TimerEvent: {}
+[78.190822] (-) TimerEvent: {}
+[78.291300] (-) TimerEvent: {}
+[78.393081] (-) TimerEvent: {}
+[78.494840] (-) TimerEvent: {}
+[78.596127] (-) TimerEvent: {}
+[78.698795] (-) TimerEvent: {}
+[78.802516] (-) TimerEvent: {}
+[78.904493] (-) TimerEvent: {}
+[79.010199] (-) TimerEvent: {}
+[79.110770] (-) TimerEvent: {}
+[79.211361] (-) TimerEvent: {}
+[79.315115] (-) TimerEvent: {}
+[79.419280] (-) TimerEvent: {}
+[79.520649] (-) TimerEvent: {}
+[79.621418] (-) TimerEvent: {}
+[79.722878] (-) TimerEvent: {}
+[79.823999] (-) TimerEvent: {}
+[79.925148] (-) TimerEvent: {}
+[80.026131] (-) TimerEvent: {}
+[80.126850] (-) TimerEvent: {}
+[80.228025] (-) TimerEvent: {}
+[80.342826] (-) TimerEvent: {}
+[80.443594] (-) TimerEvent: {}
+[80.544634] (-) TimerEvent: {}
+[80.650644] (-) TimerEvent: {}
+[80.753515] (-) TimerEvent: {}
+[80.854575] (-) TimerEvent: {}
+[80.955690] (-) TimerEvent: {}
+[81.059779] (-) TimerEvent: {}
+[81.160653] (-) TimerEvent: {}
+[81.262720] (-) TimerEvent: {}
+[81.363272] (-) TimerEvent: {}
+[81.463868] (-) TimerEvent: {}
+[81.564690] (-) TimerEvent: {}
+[81.665949] (-) TimerEvent: {}
+[81.773892] (-) TimerEvent: {}
+[81.885020] (-) TimerEvent: {}
+[81.986189] (-) TimerEvent: {}
+[82.089903] (-) TimerEvent: {}
+[82.190633] (-) TimerEvent: {}
+[82.291656] (-) TimerEvent: {}
+[82.396198] (-) TimerEvent: {}
+[82.500493] (-) TimerEvent: {}
+[82.602176] (-) TimerEvent: {}
+[82.705954] (-) TimerEvent: {}
+[82.827110] (-) TimerEvent: {}
+[82.930680] (-) TimerEvent: {}
+[83.031468] (-) TimerEvent: {}
+[83.137368] (-) TimerEvent: {}
+[83.242364] (-) TimerEvent: {}
+[83.343057] (-) TimerEvent: {}
+[83.443741] (-) TimerEvent: {}
+[83.545033] (-) TimerEvent: {}
+[83.649052] (-) TimerEvent: {}
+[83.752883] (-) TimerEvent: {}
+[83.858647] (-) TimerEvent: {}
+[83.959610] (-) TimerEvent: {}
+[84.063391] (-) TimerEvent: {}
+[84.166792] (-) TimerEvent: {}
+[84.270090] (-) TimerEvent: {}
+[84.374875] (-) TimerEvent: {}
+[84.475495] (-) TimerEvent: {}
+[84.576326] (-) TimerEvent: {}
+[84.677990] (-) TimerEvent: {}
+[84.779474] (-) TimerEvent: {}
+[84.881101] (-) TimerEvent: {}
+[84.991791] (-) TimerEvent: {}
+[85.100182] (-) TimerEvent: {}
+[85.209859] (-) TimerEvent: {}
+[85.315710] (-) TimerEvent: {}
+[85.417958] (-) TimerEvent: {}
+[85.518653] (-) TimerEvent: {}
+[85.622183] (-) TimerEvent: {}
+[85.723086] (-) TimerEvent: {}
+[85.830144] (-) TimerEvent: {}
+[85.930762] (-) TimerEvent: {}
+[86.037892] (-) TimerEvent: {}
+[86.145663] (-) TimerEvent: {}
+[86.246361] (-) TimerEvent: {}
+[86.346971] (-) TimerEvent: {}
+[86.449172] (-) TimerEvent: {}
+[86.554839] (-) TimerEvent: {}
+[86.662268] (-) TimerEvent: {}
+[86.765902] (-) TimerEvent: {}
+[86.869267] (-) TimerEvent: {}
+[86.970730] (-) TimerEvent: {}
+[87.087858] (-) TimerEvent: {}
+[87.194117] (-) TimerEvent: {}
+[87.297455] (-) TimerEvent: {}
+[87.415450] (-) TimerEvent: {}
+[87.516494] (-) TimerEvent: {}
+[87.617510] (-) TimerEvent: {}
+[87.720442] (-) TimerEvent: {}
+[87.828984] (-) TimerEvent: {}
+[87.930682] (-) TimerEvent: {}
+[88.035615] (-) TimerEvent: {}
+[88.138966] (-) TimerEvent: {}
+[88.239650] (-) TimerEvent: {}
+[88.340270] (-) TimerEvent: {}
+[88.441432] (-) TimerEvent: {}
+[88.542250] (-) TimerEvent: {}
+[88.652434] (-) TimerEvent: {}
+[88.764471] (-) TimerEvent: {}
+[88.869908] (-) TimerEvent: {}
+[88.971930] (-) TimerEvent: {}
+[89.073025] (-) TimerEvent: {}
+[89.174833] (-) TimerEvent: {}
+[89.275369] (-) TimerEvent: {}
+[89.388801] (-) TimerEvent: {}
+[89.489384] (-) TimerEvent: {}
+[89.591620] (-) TimerEvent: {}
+[89.696350] (-) TimerEvent: {}
+[89.803561] (-) TimerEvent: {}
+[89.904408] (-) TimerEvent: {}
+[90.017985] (-) TimerEvent: {}
+[90.122373] (-) TimerEvent: {}
+[90.231602] (-) TimerEvent: {}
+[90.332258] (-) TimerEvent: {}
+[90.434941] (-) TimerEvent: {}
+[90.537556] (-) TimerEvent: {}
+[90.638483] (-) TimerEvent: {}
+[90.740631] (-) TimerEvent: {}
+[90.845558] (-) TimerEvent: {}
+[90.946825] (-) TimerEvent: {}
+[91.047385] (-) TimerEvent: {}
+[91.151093] (-) TimerEvent: {}
+[91.270438] (-) TimerEvent: {}
+[91.376502] (-) TimerEvent: {}
+[91.477317] (-) TimerEvent: {}
+[91.585121] (-) TimerEvent: {}
+[91.691184] (-) TimerEvent: {}
+[91.791939] (-) TimerEvent: {}
+[91.894903] (-) TimerEvent: {}
+[91.997478] (-) TimerEvent: {}
+[92.105613] (-) TimerEvent: {}
+[92.206661] (-) TimerEvent: {}
+[92.310435] (-) TimerEvent: {}
+[92.411228] (-) TimerEvent: {}
+[92.512128] (-) TimerEvent: {}
+[92.542888] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[92.581521] (dyros_cmake) StderrLine: {'line': b'    9 | }\n'}
+[92.582017] (dyros_cmake) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[92.582164] (dyros_cmake) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1\x1b[m\x1b[K:\n'}
+[92.582334] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:6:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[92.582527] (dyros_cmake) StderrLine: {'line': b'    6 | class DyrosCppSubscriber : public rclcpp::Node \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[92.582676] (dyros_cmake) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[92.618003] (-) TimerEvent: {}
+[92.723562] (-) TimerEvent: {}
+[92.738099] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDyrosCppSubscriber::DyrosCppSubscriber(std::string, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[92.760362] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:9:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[92.760591] (dyros_cmake) StderrLine: {'line': b'    9 | \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Int32>(\n'}
+[92.760697] (dyros_cmake) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[92.760793] (dyros_cmake) StderrLine: {'line': b'      | \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[92.831134] (-) TimerEvent: {}
+[92.952008] (-) TimerEvent: {}
+[93.060924] (-) TimerEvent: {}
+[93.162468] (-) TimerEvent: {}
+[93.264017] (-) TimerEvent: {}
+[93.365417] (-) TimerEvent: {}
+[93.475051] (-) TimerEvent: {}
+[93.584683] (-) TimerEvent: {}
+[93.701443] (-) TimerEvent: {}
+[93.803483] (-) TimerEvent: {}
+[93.942598] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DyrosCppSubscriber::topic_callback(const Int32&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[94.002976] (-) TimerEvent: {}
+[94.077416] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:16:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[94.081581] (dyros_cmake) StderrLine: {'line': b'   16 | \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), \xe2\x80\x9cHello ROS: %d", msg.data); }\n'}
+[94.083505] (dyros_cmake) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[94.093023] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[94.102659] (-) TimerEvent: {}
+[94.103069] (dyros_cmake) StderrLine: {'line': b'    9 | }\n'}
+[94.103488] (dyros_cmake) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[94.103694] (dyros_cmake) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:1\x1b[m\x1b[K:\n'}
+[94.103998] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[94.119723] (dyros_cmake) StderrLine: {'line': b'   15 | void topic_callback(const std_msgs::msg::Int32 & msg) const \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[94.120295] (dyros_cmake) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[94.126517] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/include/dyros_cmake/dyros_cpp_sub.h:15:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[94.126780] (dyros_cmake) StderrLine: {'line': b'   15 | void topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Int32 & msg\x1b[m\x1b[K) const {\n'}
+[94.126887] (dyros_cmake) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[94.127011] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:\x1b[m\x1b[K At global scope:\n'}
+[94.127185] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_sub.cpp:9:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[94.127320] (dyros_cmake) StderrLine: {'line': b'    9 | }\n'}
+[94.127412] (dyros_cmake) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[94.212092] (-) TimerEvent: {}
+[94.349301] (-) TimerEvent: {}
+[94.451749] (-) TimerEvent: {}
+[94.555436] (-) TimerEvent: {}
+[94.657320] (-) TimerEvent: {}
+[94.783922] (-) TimerEvent: {}
+[94.885393] (-) TimerEvent: {}
+[94.986687] (-) TimerEvent: {}
+[95.098023] (-) TimerEvent: {}
+[95.216544] (-) TimerEvent: {}
+[95.353016] (-) TimerEvent: {}
+[95.509917] (-) TimerEvent: {}
+[95.702380] (-) TimerEvent: {}
+[95.954545] (-) TimerEvent: {}
+[96.177952] (-) TimerEvent: {}
+[96.517251] (-) TimerEvent: {}
+[96.733567] (-) TimerEvent: {}
+[96.867240] (-) TimerEvent: {}
+[96.978765] (-) TimerEvent: {}
+[97.116856] (-) TimerEvent: {}
+[97.383425] (-) TimerEvent: {}
+[97.513408] (-) TimerEvent: {}
+[97.649932] (-) TimerEvent: {}
+[97.773281] (-) TimerEvent: {}
+[97.939562] (-) TimerEvent: {}
+[98.118941] (-) TimerEvent: {}
+[98.303199] (-) TimerEvent: {}
+[98.559109] (-) TimerEvent: {}
+[99.082186] (-) TimerEvent: {}
+[99.649623] (-) TimerEvent: {}
+[99.898126] (-) TimerEvent: {}
+[100.403331] (-) TimerEvent: {}
+[100.609279] (-) TimerEvent: {}
+[100.932595] (-) TimerEvent: {}
+[101.355741] (-) TimerEvent: {}
+[101.809467] (-) TimerEvent: {}
+[102.344342] (-) TimerEvent: {}
+[102.563906] (-) TimerEvent: {}
+[102.752371] (-) TimerEvent: {}
+[103.003635] (-) TimerEvent: {}
+[103.169079] (-) TimerEvent: {}
+[103.374748] (-) TimerEvent: {}
+[103.636356] (-) TimerEvent: {}
+[104.365591] (-) TimerEvent: {}
+[104.928091] (-) TimerEvent: {}
+[105.276712] (-) TimerEvent: {}
+[105.613550] (-) TimerEvent: {}
+[107.366620] (-) TimerEvent: {}
+[107.886305] (-) TimerEvent: {}
+[108.275617] (-) TimerEvent: {}
+[108.507968] (-) TimerEvent: {}
+[108.668179] (-) TimerEvent: {}
+[108.960743] (-) TimerEvent: {}
+[109.256964] (-) TimerEvent: {}
+[110.385928] (-) TimerEvent: {}
+[110.684559] (-) TimerEvent: {}
+[110.953277] (-) TimerEvent: {}
+[111.485109] (-) TimerEvent: {}
+[111.772451] (-) TimerEvent: {}
+[111.992864] (-) TimerEvent: {}
+[112.231694] (-) TimerEvent: {}
+[112.553145] (-) TimerEvent: {}
+[112.758832] (-) TimerEvent: {}
+[113.331656] (-) TimerEvent: {}
+[113.664926] (-) TimerEvent: {}
+[114.196302] (-) TimerEvent: {}
+[114.703698] (-) TimerEvent: {}
+[115.557005] (-) TimerEvent: {}
+[116.698243] (-) TimerEvent: {}
+[117.055495] (-) TimerEvent: {}
+[117.984389] (-) TimerEvent: {}
+[118.912358] (-) TimerEvent: {}
+[119.570382] (-) TimerEvent: {}
+[120.292713] (-) TimerEvent: {}
+[121.174691] (-) TimerEvent: {}
+[122.225905] (-) TimerEvent: {}
+[123.145383] (-) TimerEvent: {}
+[124.138638] (-) TimerEvent: {}
+[124.643286] (-) TimerEvent: {}
+[125.731663] (-) TimerEvent: {}
+[126.486561] (-) TimerEvent: {}
+[126.784595] (-) TimerEvent: {}
+[127.723146] (-) TimerEvent: {}
+[128.651372] (-) TimerEvent: {}
+[129.627127] (-) TimerEvent: {}
+[130.462268] (-) TimerEvent: {}
+[131.252521] (-) TimerEvent: {}
+[132.159360] (-) TimerEvent: {}
+[132.758632] (-) TimerEvent: {}
+[133.275083] (-) TimerEvent: {}
+[134.046046] (-) TimerEvent: {}
+[134.903587] (-) TimerEvent: {}
+[135.419369] (-) TimerEvent: {}
+[135.775834] (-) TimerEvent: {}
+[136.346334] (-) TimerEvent: {}
+[136.962002] (-) TimerEvent: {}
+[137.626973] (-) TimerEvent: {}
+[138.203645] (-) TimerEvent: {}
+[138.647655] (-) TimerEvent: {}
+[138.965892] (-) TimerEvent: {}
+[139.715624] (-) TimerEvent: {}
+[140.399676] (-) TimerEvent: {}
+[140.972294] (-) TimerEvent: {}
+[142.090634] (-) TimerEvent: {}
+[143.006859] (-) TimerEvent: {}
+[144.092250] (-) TimerEvent: {}
+[145.349056] (-) TimerEvent: {}
+[145.912954] (-) TimerEvent: {}
+[146.523407] (-) TimerEvent: {}
+[147.095061] (-) TimerEvent: {}
+[148.052200] (-) TimerEvent: {}
+[148.599096] (-) TimerEvent: {}
+[149.046625] (-) TimerEvent: {}
+[149.583529] (-) TimerEvent: {}
+[149.991615] (-) TimerEvent: {}
+[150.937262] (-) TimerEvent: {}
+[151.521016] (-) TimerEvent: {}
+[151.839972] (-) TimerEvent: {}
+[152.929855] (-) TimerEvent: {}
+[154.503517] (-) TimerEvent: {}
+[155.023998] (-) TimerEvent: {}
+[155.953393] (-) TimerEvent: {}
+[156.837641] (-) TimerEvent: {}
+[157.231649] (-) TimerEvent: {}
+[158.637103] (-) TimerEvent: {}
+[159.594501] (-) TimerEvent: {}
+[161.020263] (-) TimerEvent: {}
+[161.640979] (-) TimerEvent: {}
+[162.055020] (-) TimerEvent: {}
+[162.580160] (-) TimerEvent: {}
+[163.387265] (-) TimerEvent: {}
+[163.957155] (-) TimerEvent: {}
+[164.897809] (-) TimerEvent: {}
+[165.597951] (-) TimerEvent: {}
+[166.728290] (-) TimerEvent: {}
+[168.980377] (-) TimerEvent: {}
+[169.815117] (-) TimerEvent: {}
+[170.769610] (-) TimerEvent: {}
+[172.072024] (-) TimerEvent: {}
+[173.363856] (-) TimerEvent: {}
+[174.089180] (-) TimerEvent: {}
+[175.384154] (-) TimerEvent: {}
+[176.577959] (-) TimerEvent: {}
+[177.757662] (-) TimerEvent: {}
+[178.422528] (-) TimerEvent: {}
+[179.495757] (-) TimerEvent: {}
+[179.758202] (-) TimerEvent: {}
+[180.912551] (-) TimerEvent: {}
+[182.055025] (-) TimerEvent: {}
+[182.379832] (-) TimerEvent: {}
+[183.212558] (-) TimerEvent: {}
+[184.777538] (-) TimerEvent: {}
+[185.092360] (-) TimerEvent: {}
+[186.129309] (-) TimerEvent: {}
+[186.954845] (-) TimerEvent: {}
+[188.226035] (-) TimerEvent: {}
+[189.261068] (-) TimerEvent: {}
+[189.899436] (-) TimerEvent: {}
+[190.755866] (-) TimerEvent: {}
+[191.972132] (-) TimerEvent: {}
+[193.369868] (-) TimerEvent: {}
+[193.953621] (-) TimerEvent: {}
+[194.676961] (-) TimerEvent: {}
+[195.360205] (-) TimerEvent: {}
+[196.308809] (-) TimerEvent: {}
+[197.745846] (-) TimerEvent: {}
+[198.053271] (-) TimerEvent: {}
+[198.242150] (-) TimerEvent: {}
+[199.926035] (-) TimerEvent: {}
+[200.584157] (-) TimerEvent: {}
+[201.379046] (-) TimerEvent: {}
+[203.053719] (-) TimerEvent: {}
+[203.982039] (-) TimerEvent: {}
+[204.915347] (-) TimerEvent: {}
+[205.860924] (-) TimerEvent: {}
+[207.132647] (-) TimerEvent: {}
+[208.191591] (-) TimerEvent: {}
+[209.000209] (-) TimerEvent: {}
+[210.061181] (-) TimerEvent: {}
+[211.409860] (-) TimerEvent: {}
+[212.511239] (-) TimerEvent: {}
+[213.257736] (-) TimerEvent: {}
+[214.336514] (-) TimerEvent: {}
+[215.330774] (-) TimerEvent: {}

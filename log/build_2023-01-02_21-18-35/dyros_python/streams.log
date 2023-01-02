@@ -1,0 +1,31 @@
+[1.424s] Invoking command in '/home/dyros/ros2_ws/src/dyros_python': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed
+[1.899s] running egg_info
+[1.901s] writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO
+[1.915s] writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt
+[1.916s] writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt
+[1.917s] writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt
+[1.917s] writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt
+[1.922s] reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[1.925s] writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+[1.925s] running build
+[1.926s] running build_py
+[1.929s] copying dyros_python/dyros_py_server.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[1.929s] copying dyros_python/dyros_py_client.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+[1.931s] running install
+[1.932s] running install_lib
+[1.934s] copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_server.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[1.935s] copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_client.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+[1.939s] byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_server.py to dyros_py_server.cpython-310.pyc
+[1.943s] byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_client.py to dyros_py_client.cpython-310.pyc
+[1.943s] running install_data
+[1.944s] copying package.xml -> /home/dyros/ros2_ws/install/dyros_python/share/dyros_python
+[1.944s] running install_egg_info
+[1.947s] removing '/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python-0.0.0-py3.10.egg-info' (and everything under it)
+[1.947s] Copying ../../build/dyros_python/dyros_python.egg-info to /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python-0.0.0-py3.10.egg-info
+[1.950s] running install_scripts
+[1.992s] Installing dyros_py_client script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+[1.994s] Installing dyros_py_pub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+[1.995s] Installing dyros_py_server script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+[1.995s] Installing dyros_py_sub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+[1.996s] writing list of installed files to '/home/dyros/ros2_ws/build/dyros_python/install.log'
+[2.055s] Invoked command in '/home/dyros/ros2_ws/src/dyros_python' returned '0': PYTHONPATH=/home/dyros/ros2_ws/build/dyros_python/prefix_override:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_python build --build-base /home/dyros/ros2_ws/build/dyros_python/build install --record /home/dyros/ros2_ws/build/dyros_python/install.log --single-version-externally-managed

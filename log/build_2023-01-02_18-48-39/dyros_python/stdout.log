@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt
+writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt
+writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt
+writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt
+reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+copying dyros_python/__init__.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+copying dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+running install
+running install_lib
+copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/__init__.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_pub.py to dyros_py_pub.cpython-310.pyc
+byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_sub.py to dyros_py_sub.cpython-310.pyc
+running install_data
+copying resource/dyros_python -> /home/dyros/ros2_ws/install/dyros_python/share/ament_index/resource_index/packages
+copying package.xml -> /home/dyros/ros2_ws/install/dyros_python/share/dyros_python
+running install_egg_info
+Copying ../../build/dyros_python/dyros_python.egg-info to /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dyros_py_pub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+Installing dyros_py_sub script to /home/dyros/ros2_ws/install/dyros_python/lib/dyros_python
+writing list of installed files to '/home/dyros/ros2_ws/build/dyros_python/install.log'

@@ -1,0 +1,6 @@
+[console_scripts]
+dyros_py_client = dyros_python.dyros_py_client:main
+dyros_py_pub = dyros_python.dyros_py_pub:main
+dyros_py_server = dyros_python.dyros_py_server:main
+dyros_py_sub = dyros_python.dyros_py_sub:main
+

@@ -1,0 +1,35 @@
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:44:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   22 | RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), [01;35m[K"[m[KInterrupted while waiting for the service.
+      |                                            [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   24 | Exiting.[01;35m[K"[m[K);
+      |         [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:40:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_ERROR"
+   40 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+   22 | [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:21:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | if (!rclcpp::ok()) [01;36m[K{[m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:20:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   20 | while (!client->wait_for_service(1s)) [01;36m[K{[m[K
+      |                                       [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:7:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | int main(int argc, char **argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/dyros_cpp_client.dir/build.make:76: CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/dyros_cpp_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

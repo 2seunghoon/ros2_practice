@@ -1,0 +1,6 @@
+setup.py
+dyros_interface/__init__.py
+dyros_interface.egg-info/PKG-INFO
+dyros_interface.egg-info/SOURCES.txt
+dyros_interface.egg-info/dependency_links.txt
+dyros_interface.egg-info/top_level.txt

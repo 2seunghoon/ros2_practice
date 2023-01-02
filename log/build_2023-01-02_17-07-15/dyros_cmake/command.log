@@ -1,0 +1,3 @@
+Invoking command in '/home/dyros/ros2_ws/build/dyros_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/dyros_cmake -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_cmake
+Invoked command in '/home/dyros/ros2_ws/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/dyros_cmake -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_cmake
+Invoking command in '/home/dyros/ros2_ws/build/dyros_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_cmake -- -j2 -l2

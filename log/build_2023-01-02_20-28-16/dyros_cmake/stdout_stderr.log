@@ -1,0 +1,121 @@
+[ 25%] Built target dyros_cpp_pub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_sub[0m
+[ 50%] Built target dyros_cpp_sub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_server[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/dyros_cpp_server.dir/src/dyros_cpp_server.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<dyros_interface::srv::AddThreeInts_Request_<std::allocator<void> > >, std::shared_ptr<dyros_interface::srv::AddThreeInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+    7 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %d" " b: %d" " c: %d"[m[K,
+      |                                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+    8 | 
+    9 | [32m[Krequest->a[m[K, request->b, request->c);
+      | [32m[K~~~~~~~~~~[m[K                                 
+      |          [32m[K|[m[K
+      |          [32m[Kdouble[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+    7 | P_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: [01;36m[K%d[m[K" " b: %d" " c: %d",
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kint[m[K
+      |                                                            [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+    7 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %d" " b: %d" " c: %d"[m[K,
+      |                                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+    8 | 
+    9 | request->a, [32m[Krequest->b[m[K, request->c);
+      |             [32m[K~~~~~~~~~~[m[K                     
+      |                      [32m[K|[m[K
+      |                      [32m[Kdouble[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+    7 | lcpp::get_logger("rclcpp"), "Incoming request\na: %d" " b: [01;36m[K%d[m[K" " c: %d",
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kint[m[K
+      |                                                            [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+    7 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %d" " b: %d" " c: %d"[m[K,
+      |                                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+    8 | 
+    9 | request->a, request->b, [32m[Krequest->c[m[K);
+      |                         [32m[K~~~~~~~~~~[m[K         
+      |                                  [32m[K|[m[K
+      |                                  [32m[Kdouble[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_server.cpp:7:84:[m[K [01;36m[Knote: [m[Kformat string is defined here
+    7 | cpp::get_logger("rclcpp"), "Incoming request\na: %d" " b: %d" " c: [01;36m[K%d[m[K",
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%f[m[K
+[ 75%] [32m[1mLinking CXX executable dyros_cpp_server[0m
+[ 75%] Built target dyros_cpp_server
+[ 87%] [32mBuilding CXX object CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o[0m
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:44:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   22 | RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), [01;35m[K"[m[KInterrupted while waiting for the service.
+      |                                            [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   24 | Exiting.[01;35m[K"[m[K);
+      |         [01;35m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:40:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_ERROR"
+   40 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+   22 | [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:21:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | if (!rclcpp::ok()) [01;36m[K{[m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:20:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   20 | while (!client->wait_for_service(1s)) [01;36m[K{[m[K
+      |                                       [01;36m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 | RCLCPP_ERROR[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.
+      |             [01;31m[K^[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:7:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | int main(int argc, char **argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/dyros_cpp_client.dir/build.make:76: CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/dyros_cpp_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

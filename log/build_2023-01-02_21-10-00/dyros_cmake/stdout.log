@@ -1,0 +1,31 @@
+[ 25%] Built target dyros_cpp_pub
+[ 50%] Built target dyros_cpp_sub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_server[0m
+[ 75%] Built target dyros_cpp_server
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_client[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dyros_cpp_client[0m
+[100%] Built target dyros_cpp_client
+-- Install configuration: ""
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/package_run_dependencies/dyros_cmake
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/parent_prefix_path/dyros_cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.sh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.bash
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.sh
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.zsh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.dsv
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/packages/dyros_cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig.cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig-version.cmake
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.xml

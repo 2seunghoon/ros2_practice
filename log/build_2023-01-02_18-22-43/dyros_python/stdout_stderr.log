@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/dyros_python/dyros_python.egg-info
+writing ../../build/dyros_python/dyros_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/dyros_python/dyros_python.egg-info/dependency_links.txt
+writing entry points to ../../build/dyros_python/dyros_python.egg-info/entry_points.txt
+writing requirements to ../../build/dyros_python/dyros_python.egg-info/requires.txt
+writing top-level names to ../../build/dyros_python/dyros_python.egg-info/top_level.txt
+writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+package init file 'dyros_python/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/dyros_python/dyros_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dyros/ros2_ws/build/dyros_python/build
+creating /home/dyros/ros2_ws/build/dyros_python/build/lib
+creating /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+copying dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+copying dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python
+running install
+running install_lib
+creating /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_pub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+copying /home/dyros/ros2_ws/build/dyros_python/build/lib/dyros_python/dyros_py_sub.py -> /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python
+byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_pub.py to dyros_py_pub.cpython-310.pyc
+byte-compiling /home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros_python/dyros_py_sub.py to dyros_py_sub.cpython-310.pyc
+running install_data
+creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index
+creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index/resource_index
+creating /home/dyros/ros2_ws/install/dyros_python/share/ament_index/resource_index/packages
+error: can't copy 'resource/dyros_python': doesn't exist or not a regular file

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dyros_interface/srv/AddThreeInts.srv
+// generated code does not contain a copyright notice
+
+
+module dyros_interface {
+  module srv {
+    struct AddThreeInts_Request {
+      int16 a;
+
+      int16 b;
+
+      int16 c;
+    };
+    struct AddThreeInts_Response {
+      int16 sum;
+    };
+  };
+};

@@ -1,0 +1,55 @@
+[ 25%] Built target dyros_cpp_pub
+[ 50%] Built target dyros_cpp_sub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_server[0m
+[ 75%] Built target dyros_cpp_server
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_client[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:1[m[K:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:31:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   31 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Sum: %f"[m[K, [32m[Kresult.get()->sum[m[K);
+      |                                           [01;35m[K^~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kint[m[K
+[01m[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:31:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   31 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: [01;36m[K%f[m[K", result.get()->sum);
+      |                                                 [01;36m[K~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Kdouble[m[K
+      |                                                 [32m[K%d[m[K
+[100%] [32m[1mLinking CXX executable dyros_cpp_client[0m
+[100%] Built target dyros_cpp_client
+-- Install configuration: ""
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client
+-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client" to ""
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/package_run_dependencies/dyros_cmake
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/parent_prefix_path/dyros_cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.sh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.bash
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.sh
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.zsh
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.dsv
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.dsv
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/packages/dyros_cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig.cmake
+-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig-version.cmake
+-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.xml

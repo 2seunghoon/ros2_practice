@@ -1,0 +1,8 @@
+[ 25%] Built target dyros_cpp_pub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_sub[0m
+[ 50%] Built target dyros_cpp_sub
+[35m[1mConsolidate compiler generated dependencies of target dyros_cpp_server[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/dyros_cpp_server.dir/src/dyros_cpp_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable dyros_cpp_server[0m
+[ 75%] Built target dyros_cpp_server
+[ 87%] [32mBuilding CXX object CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o[0m

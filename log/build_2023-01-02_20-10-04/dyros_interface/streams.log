@@ -1,0 +1,303 @@
+[0.115s] Invoking command in '/home/dyros/ros2_ws/build/dyros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/dyros_interface -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_interface
+[0.556s] -- The C compiler identification is GNU 11.3.0
+[0.777s] -- The CXX compiler identification is GNU 11.3.0
+[0.807s] -- Detecting C compiler ABI info
+[0.979s] -- Detecting C compiler ABI info - done
+[1.001s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.002s] -- Detecting C compile features
+[1.004s] -- Detecting C compile features - done
+[1.014s] -- Detecting CXX compiler ABI info
+[1.363s] -- Detecting CXX compiler ABI info - done
+[1.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.385s] -- Detecting CXX compile features
+[1.387s] -- Detecting CXX compile features - done
+[1.408s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.000s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.615s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.951s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.981s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.034s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.655s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.787s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.797s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[6.803s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.886s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[6.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.887s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.887s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.960s] -- Found PythonExtra: .so  
+[7.152s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.297s] -- Added test 'lint_cmake' to check CMake code style
+[7.302s] -- Added test 'xmllint' to check XML markup files
+[7.317s] -- Configuring done
+[7.489s] -- Generating done
+[7.502s] -- Build files have been written to: /home/dyros/ros2_ws/build/dyros_interface
+[7.530s] Invoked command in '/home/dyros/ros2_ws/build/dyros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/dyros_interface -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/dyros_interface
+[7.531s] Invoking command in '/home/dyros/ros2_ws/build/dyros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_interface -- -j2 -l2
+[7.641s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.011s] [  2%] Built target dyros_interface__cpp
+[9.027s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.062s] [  6%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/msg/detail/num__functions.c.o[0m
+[10.256s] [  8%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/msg/detail/sphere__functions.c.o[0m
+[10.367s] [ 10%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_c.dir/rosidl_generator_c/dyros_interface/srv/detail/add_three_ints__functions.c.o[0m
+[10.519s] [ 12%] [32m[1mLinking C shared library libdyros_interface__rosidl_generator_c.so[0m
+[10.635s] [ 12%] Built target dyros_interface__rosidl_generator_c
+[10.702s] [ 12%] Built target ament_cmake_python_copy_dyros_interface
+[10.722s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.300s] [ 17%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/msg/num__type_support.cpp.o[0m
+[12.082s] [ 19%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/msg/sphere__type_support.cpp.o[0m
+[12.727s] [ 21%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dyros_interface/srv/add_three_ints__type_support.cpp.o[0m
+[13.327s] [ 23%] [32m[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_cpp.so[0m
+[13.448s] [ 23%] Built target dyros_interface__rosidl_typesupport_cpp
+[13.490s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.462s] [ 27%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/msg/detail/num__type_support_c.cpp.o[0m
+[15.604s] [ 29%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/msg/detail/sphere__type_support_c.cpp.o[0m
+[16.430s] [ 31%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dyros_interface/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[17.096s] [ 34%] [32m[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_fastrtps_c.so[0m
+[17.336s] [ 34%] Built target dyros_interface__rosidl_typesupport_fastrtps_c
+[17.356s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.296s] [ 38%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[19.352s] [ 40%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[20.194s] [ 42%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dyros_interface/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[21.105s] [ 44%] [32m[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.369s] [ 44%] Built target dyros_interface__rosidl_typesupport_fastrtps_cpp
+[21.431s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.363s] [ 48%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/msg/detail/num__type_support.c.o[0m
+[22.490s] [ 51%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/msg/detail/sphere__type_support.c.o[0m
+[22.608s] [ 53%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dyros_interface/srv/detail/add_three_ints__type_support.c.o[0m
+[22.736s] [ 55%] [32m[1mLinking C shared library libdyros_interface__rosidl_typesupport_introspection_c.so[0m
+[22.875s] [ 55%] Built target dyros_interface__rosidl_typesupport_introspection_c
+[22.909s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.902s] [ 59%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/msg/num__type_support.cpp.o[0m
+[23.986s] [ 61%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/msg/sphere__type_support.cpp.o[0m
+[24.040s] [ 63%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dyros_interface/srv/add_three_ints__type_support.cpp.o[0m
+[24.109s] [ 65%] [32m[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_c.so[0m
+[24.212s] [ 65%] Built target dyros_interface__rosidl_typesupport_c
+[24.248s] [ 68%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[25.029s] [ 70%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/msg/detail/num__type_support.cpp.o[0m
+[25.863s] [ 72%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/msg/detail/sphere__type_support.cpp.o[0m
+[26.653s] [ 74%] [32mBuilding CXX object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dyros_interface/srv/detail/add_three_ints__type_support.cpp.o[0m
+[27.527s] [ 76%] [32m[1mLinking CXX shared library libdyros_interface__rosidl_typesupport_introspection_cpp.so[0m
+[27.811s] [ 76%] Built target dyros_interface__rosidl_typesupport_introspection_cpp
+[29.253s] running egg_info
+[29.255s] creating dyros_interface.egg-info
+[29.256s] writing dyros_interface.egg-info/PKG-INFO
+[29.257s] writing dependency_links to dyros_interface.egg-info/dependency_links.txt
+[29.259s] writing top-level names to dyros_interface.egg-info/top_level.txt
+[29.261s] writing manifest file 'dyros_interface.egg-info/SOURCES.txt'
+[29.270s] reading manifest file 'dyros_interface.egg-info/SOURCES.txt'
+[29.272s] writing manifest file 'dyros_interface.egg-info/SOURCES.txt'
+[29.340s] [ 76%] Built target ament_cmake_python_build_dyros_interface_egg
+[29.388s] [ 76%] Built target dyros_interface
+[29.468s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.212s] [ 78%] Built target dyros_interface__py
+[31.261s] [ 80%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/msg/_num_s.c.o[0m
+[31.669s] [ 82%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/msg/_sphere_s.c.o[0m
+[31.871s] [ 85%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_generator_py.dir/rosidl_generator_py/dyros_interface/srv/_add_three_ints_s.c.o[0m
+[32.168s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/dyros_interface/libdyros_interface__rosidl_generator_py.so[0m
+[32.372s] [ 87%] Built target dyros_interface__rosidl_generator_py
+[32.449s] [ 89%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.770s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.885s] [ 91%] Built target dyros_interface__rosidl_typesupport_fastrtps_c__pyext
+[32.942s] [ 93%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.168s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[33.302s] [ 95%] Built target dyros_interface__rosidl_typesupport_introspection_c__pyext
+[33.361s] [ 97%] [32mBuilding C object CMakeFiles/dyros_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[33.611s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[33.729s] [100%] Built target dyros_interface__rosidl_typesupport_c__pyext
+[33.796s] Invoked command in '/home/dyros/ros2_ws/build/dyros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_interface -- -j2 -l2
+[34.113s] Invoking command in '/home/dyros/ros2_ws/build/dyros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/dyros_interface
+[34.153s] -- Install configuration: ""
+[34.155s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/rosidl_interfaces/dyros_interface
+[34.157s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.158s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.158s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/sphere.h
+[34.159s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.159s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__struct.h
+[34.160s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__struct.h
+[34.160s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.h
+[34.161s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__functions.h
+[34.161s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__functions.h
+[34.162s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.h
+[34.163s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__functions.c
+[34.165s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__functions.c
+[34.165s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/num.h
+[34.166s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_generator_c__visibility_control.h
+[34.167s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.167s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/add_three_ints.h
+[34.168s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.168s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.h
+[34.169s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__functions.c
+[34.169s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__functions.h
+[34.170s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__struct.h
+[34.171s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/library_path.sh
+[34.172s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/library_path.dsv
+[34.173s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_c.so
+[34.174s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_c.so" to ""
+[34.177s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.177s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.177s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.178s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.179s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[34.180s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[34.181s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.181s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.181s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[34.181s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_c.so
+[34.182s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[34.182s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.187s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.187s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/sphere.hpp
+[34.188s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/num.hpp
+[34.189s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.190s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__struct.hpp
+[34.190s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__traits.hpp
+[34.191s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__builder.hpp
+[34.191s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__builder.hpp
+[34.192s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__struct.hpp
+[34.193s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__traits.hpp
+[34.194s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.194s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/add_three_ints.hpp
+[34.196s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.196s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__struct.hpp
+[34.197s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__builder.hpp
+[34.197s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__traits.hpp
+[34.198s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.199s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.199s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.201s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.207s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[34.207s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/dds_fastrtps
+[34.207s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[34.207s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.207s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.208s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/dds_fastrtps
+[34.208s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[34.208s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_cpp.so
+[34.208s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.208s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.209s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.209s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.209s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[34.209s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[34.209s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.c
+[34.210s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.c
+[34.212s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.213s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.213s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.214s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.c
+[34.217s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[34.217s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_c.so
+[34.217s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_c.so" to ""
+[34.217s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_c.so
+[34.218s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_c.so" to ""
+[34.218s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface
+[34.218s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg
+[34.220s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail
+[34.221s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[34.222s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/sphere__type_support.cpp
+[34.223s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__type_support.cpp
+[34.224s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[34.225s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv
+[34.225s] -- Up-to-date: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail
+[34.225s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[34.230s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/include/dyros_interface/dyros_interface/srv/detail/add_three_ints__type_support.cpp
+[34.231s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_cpp.so
+[34.231s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[34.231s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_cpp.so
+[34.232s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_typesupport_cpp.so" to ""
+[34.232s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/pythonpath.sh
+[34.233s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/pythonpath.dsv
+[34.233s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info
+[34.238s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.238s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/top_level.txt
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/libdyros_interface__rosidl_generator_py.so
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere.py
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num.py
+[34.239s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num_s.c
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere_s.c
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/__init__.py
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_introspection_c.c
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/__init__.py
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints.py
+[34.240s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/__init__.py
+[34.241s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints_s.c
+[34.241s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/_dyros_interface_s.ep.rosidl_typesupport_c.c
+[34.384s] Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface'...
+[34.384s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/__init__.py'...
+[34.385s] Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg'...
+[34.385s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/__init__.py'...
+[34.386s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_num.py'...
+[34.386s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/msg/_sphere.py'...
+[34.386s] Listing '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv'...
+[34.387s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/__init__.py'...
+[34.387s] Compiling '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/srv/_add_three_ints.py'...
+[34.400s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.401s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.401s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.402s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.402s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.403s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages/dyros_interface/dyros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.403s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_py.so
+[34.404s] -- Set runtime path of "/home/dyros/ros2_ws/install/dyros_interface/lib/libdyros_interface__rosidl_generator_py.so" to ""
+[34.404s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Num.idl
+[34.405s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Sphere.idl
+[34.406s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts.idl
+[34.406s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Num.msg
+[34.407s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/msg/Sphere.msg
+[34.408s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts.srv
+[34.414s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts_Request.msg
+[34.414s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/srv/AddThreeInts_Response.msg
+[34.415s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/package_run_dependencies/dyros_interface
+[34.416s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/parent_prefix_path/dyros_interface
+[34.417s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/ament_prefix_path.sh
+[34.418s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/ament_prefix_path.dsv
+[34.419s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/path.sh
+[34.420s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/environment/path.dsv
+[34.421s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.bash
+[34.422s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.sh
+[34.422s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.zsh
+[34.425s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/local_setup.dsv
+[34.426s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/package.dsv
+[34.427s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/ament_index/resource_index/packages/dyros_interface
+[34.427s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cExport.cmake
+[34.428s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cExport-noconfig.cmake
+[34.429s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[34.430s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.433s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_cppExport.cmake
+[34.433s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.435s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.435s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cExport.cmake
+[34.436s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.438s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cExport.cmake
+[34.438s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cExport-noconfig.cmake
+[34.440s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cppExport.cmake
+[34.441s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.445s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cppExport.cmake
+[34.447s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[34.448s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_pyExport.cmake
+[34.449s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/export_dyros_interface__rosidl_generator_pyExport-noconfig.cmake
+[34.450s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake-extras.cmake
+[34.451s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.452s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.453s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[34.454s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/ament_cmake_export_targets-extras.cmake
+[34.456s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.457s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.458s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interfaceConfig.cmake
+[34.459s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/cmake/dyros_interfaceConfig-version.cmake
+[34.460s] -- Installing: /home/dyros/ros2_ws/install/dyros_interface/share/dyros_interface/package.xml
+[34.474s] Invoked command in '/home/dyros/ros2_ws/build/dyros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/dyros_interface

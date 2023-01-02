@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'dyros_interface'}
+[0.000311] (-) JobUnselected: {'identifier': 'dyros_python'}
+[0.000376] (dyros_cmake) JobQueued: {'identifier': 'dyros_cmake', 'dependencies': OrderedDict([('dyros_interface', '/home/dyros/ros2_ws/install/dyros_interface')])}
+[0.000423] (dyros_cmake) JobStarted: {'identifier': 'dyros_cmake'}
+[0.054324] (dyros_cmake) JobProgress: {'identifier': 'dyros_cmake', 'progress': 'cmake'}
+[0.056901] (dyros_cmake) JobProgress: {'identifier': 'dyros_cmake', 'progress': 'build'}
+[0.058561] (dyros_cmake) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/dyros_cmake', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/dyros_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyros/ros2_ws/install/dyros_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1866'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[0.098297] (-) TimerEvent: {}
+[0.198847] (-) TimerEvent: {}
+[0.299414] (-) TimerEvent: {}
+[0.366856] (dyros_cmake) StdoutLine: {'line': b'[ 25%] Built target dyros_cpp_pub\n'}
+[0.399718] (-) TimerEvent: {}
+[0.439343] (dyros_cmake) StdoutLine: {'line': b'[ 50%] Built target dyros_cpp_sub\n'}
+[0.479639] (dyros_cmake) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dyros_cpp_server\x1b[0m\n'}
+[0.499871] (-) TimerEvent: {}
+[0.525553] (dyros_cmake) StdoutLine: {'line': b'[ 75%] Built target dyros_cpp_server\n'}
+[0.574390] (dyros_cmake) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dyros_cpp_client\x1b[0m\n'}
+[0.600079] (-) TimerEvent: {}
+[0.614513] (dyros_cmake) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/dyros_cpp_client.dir/src/dyros_cpp_client.cpp.o\x1b[0m\n'}
+[0.700324] (-) TimerEvent: {}
+[0.806512] (-) TimerEvent: {}
+[0.907103] (-) TimerEvent: {}
+[1.007683] (-) TimerEvent: {}
+[1.108110] (-) TimerEvent: {}
+[1.208606] (-) TimerEvent: {}
+[1.309091] (-) TimerEvent: {}
+[1.409644] (-) TimerEvent: {}
+[1.510149] (-) TimerEvent: {}
+[1.613656] (-) TimerEvent: {}
+[1.718135] (-) TimerEvent: {}
+[1.819058] (-) TimerEvent: {}
+[1.919676] (-) TimerEvent: {}
+[2.020170] (-) TimerEvent: {}
+[2.122477] (-) TimerEvent: {}
+[2.223390] (-) TimerEvent: {}
+[2.324136] (-) TimerEvent: {}
+[2.424688] (-) TimerEvent: {}
+[2.525188] (-) TimerEvent: {}
+[2.625957] (-) TimerEvent: {}
+[2.726515] (-) TimerEvent: {}
+[2.826993] (-) TimerEvent: {}
+[2.927518] (-) TimerEvent: {}
+[3.028123] (-) TimerEvent: {}
+[3.128667] (-) TimerEvent: {}
+[3.230804] (-) TimerEvent: {}
+[3.331262] (-) TimerEvent: {}
+[3.431969] (-) TimerEvent: {}
+[3.532485] (-) TimerEvent: {}
+[3.632960] (-) TimerEvent: {}
+[3.733475] (-) TimerEvent: {}
+[3.834156] (-) TimerEvent: {}
+[3.934648] (-) TimerEvent: {}
+[4.035680] (-) TimerEvent: {}
+[4.136635] (-) TimerEvent: {}
+[4.237189] (-) TimerEvent: {}
+[4.337642] (-) TimerEvent: {}
+[4.438581] (-) TimerEvent: {}
+[4.539062] (-) TimerEvent: {}
+[4.639565] (-) TimerEvent: {}
+[4.740014] (-) TimerEvent: {}
+[4.840543] (-) TimerEvent: {}
+[4.941048] (-) TimerEvent: {}
+[5.041551] (-) TimerEvent: {}
+[5.141992] (-) TimerEvent: {}
+[5.242474] (-) TimerEvent: {}
+[5.342951] (-) TimerEvent: {}
+[5.443464] (-) TimerEvent: {}
+[5.544920] (-) TimerEvent: {}
+[5.645445] (-) TimerEvent: {}
+[5.745928] (-) TimerEvent: {}
+[5.846467] (-) TimerEvent: {}
+[5.946884] (-) TimerEvent: {}
+[6.047350] (-) TimerEvent: {}
+[6.147941] (-) TimerEvent: {}
+[6.248450] (-) TimerEvent: {}
+[6.348918] (-) TimerEvent: {}
+[6.449660] (-) TimerEvent: {}
+[6.550258] (-) TimerEvent: {}
+[6.651356] (-) TimerEvent: {}
+[6.752063] (-) TimerEvent: {}
+[6.835450] (dyros_cmake) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.859686] (-) TimerEvent: {}
+[6.859915] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.860076] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[6.860174] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.860261] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.860345] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.860429] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.860513] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.860594] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.860736] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.860820] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.860902] (dyros_cmake) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:1\x1b[m\x1b[K:\n'}
+[6.860984] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.861069] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:31:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.861162] (dyros_cmake) StderrLine: {'line': b'   31 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Sum: %f"\x1b[m\x1b[K, \x1b[32m\x1b[Kresult.get()->sum\x1b[m\x1b[K);\n'}
+[6.861246] (dyros_cmake) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.861328] (dyros_cmake) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.861409] (dyros_cmake) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.861498] (dyros_cmake) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyros/ros2_ws/src/dyros_cmake/src/dyros_cpp_client.cpp:31:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.861609] (dyros_cmake) StderrLine: {'line': b'   31 | RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K", result.get()->sum);\n'}
+[6.861719] (dyros_cmake) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.861801] (dyros_cmake) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.861884] (dyros_cmake) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[6.861980] (dyros_cmake) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[6.959931] (-) TimerEvent: {}
+[7.060396] (-) TimerEvent: {}
+[7.160824] (-) TimerEvent: {}
+[7.261338] (-) TimerEvent: {}
+[7.367265] (-) TimerEvent: {}
+[7.467925] (-) TimerEvent: {}
+[7.568624] (-) TimerEvent: {}
+[7.669065] (-) TimerEvent: {}
+[7.769569] (-) TimerEvent: {}
+[7.870114] (-) TimerEvent: {}
+[7.970644] (-) TimerEvent: {}
+[8.071149] (-) TimerEvent: {}
+[8.171544] (-) TimerEvent: {}
+[8.272873] (-) TimerEvent: {}
+[8.373389] (-) TimerEvent: {}
+[8.473912] (-) TimerEvent: {}
+[8.575283] (-) TimerEvent: {}
+[8.675959] (-) TimerEvent: {}
+[8.776369] (-) TimerEvent: {}
+[8.876882] (-) TimerEvent: {}
+[8.977660] (-) TimerEvent: {}
+[9.078268] (-) TimerEvent: {}
+[9.178747] (-) TimerEvent: {}
+[9.279199] (-) TimerEvent: {}
+[9.380086] (-) TimerEvent: {}
+[9.480967] (-) TimerEvent: {}
+[9.581609] (-) TimerEvent: {}
+[9.682672] (-) TimerEvent: {}
+[9.783306] (-) TimerEvent: {}
+[9.883934] (-) TimerEvent: {}
+[9.973643] (dyros_cmake) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dyros_cpp_client\x1b[0m\n'}
+[9.984187] (-) TimerEvent: {}
+[10.084861] (-) TimerEvent: {}
+[10.185342] (-) TimerEvent: {}
+[10.285927] (-) TimerEvent: {}
+[10.387171] (-) TimerEvent: {}
+[10.489858] (-) TimerEvent: {}
+[10.583714] (dyros_cmake) StdoutLine: {'line': b'[100%] Built target dyros_cpp_client\n'}
+[10.596957] (-) TimerEvent: {}
+[10.715901] (-) TimerEvent: {}
+[10.769906] (dyros_cmake) CommandEnded: {'returncode': 0}
+[10.846437] (-) TimerEvent: {}
+[10.945962] (dyros_cmake) JobProgress: {'identifier': 'dyros_cmake', 'progress': 'install'}
+[10.951417] (-) TimerEvent: {}
+[11.015225] (dyros_cmake) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/dyros_cmake'], 'cwd': '/home/dyros/ros2_ws/build/dyros_cmake', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyros/ros2_ws/install/dyros_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1866'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1602,unix/dyros-VirtualBox:/tmp/.ICE-unix/1602'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98246c6a_ce69_43be_ba6d_5b35bafc4e91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/dyros_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/dyros_interface:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[11.046133] (dyros_cmake) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.051507] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub\n'}
+[11.051808] (-) TimerEvent: {}
+[11.053912] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub\n'}
+[11.069247] (dyros_cmake) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub" to ""\n'}
+[11.069771] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server\n'}
+[11.075864] (dyros_cmake) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_server" to ""\n'}
+[11.076296] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client\n'}
+[11.077371] (dyros_cmake) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_client" to ""\n'}
+[11.086186] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/package_run_dependencies/dyros_cmake\n'}
+[11.087424] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/parent_prefix_path/dyros_cmake\n'}
+[11.090789] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.sh\n'}
+[11.091406] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.dsv\n'}
+[11.091895] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.sh\n'}
+[11.092290] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/environment/path.dsv\n'}
+[11.092596] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.bash\n'}
+[11.092843] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.sh\n'}
+[11.093075] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.zsh\n'}
+[11.093257] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/local_setup.dsv\n'}
+[11.094197] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.dsv\n'}
+[11.094687] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/ament_index/resource_index/packages/dyros_cmake\n'}
+[11.095500] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig.cmake\n'}
+[11.096216] (dyros_cmake) StdoutLine: {'line': b'-- Up-to-date: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig-version.cmake\n'}
+[11.096646] (dyros_cmake) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/dyros_cmake/share/dyros_cmake/package.xml\n'}
+[11.106988] (dyros_cmake) CommandEnded: {'returncode': 0}
+[11.157482] (-) TimerEvent: {}
+[11.262856] (-) TimerEvent: {}
+[11.366254] (-) TimerEvent: {}
+[11.467775] (-) TimerEvent: {}
+[11.573464] (-) TimerEvent: {}
+[11.624572] (dyros_cmake) JobEnded: {'identifier': 'dyros_cmake', 'rc': 0}
+[11.653774] (-) EventReactorShutdown: {}

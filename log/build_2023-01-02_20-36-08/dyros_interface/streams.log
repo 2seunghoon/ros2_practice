@@ -1,0 +1,58 @@
+[0.030s] Invoking command in '/home/dyros/ros2_ws/build/dyros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_interface -- -j2 -l2
+[0.091s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.515s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.534s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.838s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.203s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.203s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.204s]   dyros_interface --arguments-file
+[1.204s]   /home/dyros/ros2_ws/build/dyros_interface/rosidl_adapter__arguments__dyros_interface.json
+[1.204s]   --output-dir
+[1.204s]   /home/dyros/ros2_ws/build/dyros_interface/rosidl_adapter/dyros_interface
+[1.204s]   --output-file
+[1.204s]   /home/dyros/ros2_ws/build/dyros_interface/rosidl_adapter/dyros_interface.idls)
+[1.204s]   returned error code 1:
+[1.204s] 
+[1.205s]   Error processing 'float a' of 'dyros_interface/AddThreeInts_Request':
+[1.205s]   ''float' is an invalid message name.  It should have the pattern
+[1.205s]   '^[A-Z][A-Za-z0-9]*$''
+[1.205s] 
+[1.205s]   Traceback (most recent call last):
+[1.205s] 
+[1.205s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.206s]       return _run_code(code, main_globals, None,
+[1.206s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.206s]       exec(code, run_globals)
+[1.206s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.206s]       sys.exit(main())
+[1.207s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.207s]       abs_idl_file = convert_to_idl(
+[1.207s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.207s]       return convert_srv_to_idl(
+[1.207s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.207s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.207s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[1.208s]       request_message = parse_message_string(
+[1.208s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[1.208s]       Type(type_string, context_package_name=pkg_name),
+[1.208s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[1.208s]       super(Type, self).__init__(
+[1.208s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.209s]       raise InvalidResourceName(
+[1.209s] 
+[1.209s]   rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+[1.209s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.209s] 
+[1.209s] Call Stack (most recent call first):
+[1.209s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.209s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.209s] 
+[1.210s] [0m
+[1.210s] -- Configuring incomplete, errors occurred!
+[1.210s] See also "/home/dyros/ros2_ws/build/dyros_interface/CMakeFiles/CMakeOutput.log".
+[1.222s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[1.233s] Invoked command in '/home/dyros/ros2_ws/build/dyros_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/dyros_interface -- -j2 -l2
